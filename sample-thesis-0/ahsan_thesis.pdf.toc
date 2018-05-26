@@ -1,0 +1,51 @@
+\contentsline {chapter}{\uppercase {Abstract}}{iii}
+\contentsline {chapter}{LIST OF FIGURES}{vii}
+\contentsline {chapter}{LIST OF TABLES}{x}
+\gdef \the@ipfilectr {@-1}
+\unhbox \voidb@x \\[-1.2ex] \kern -1.5em\contentsline {}{\textbf {CHAPTERS}}{}
+\contentsline {chapter}{\numberline {1.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0 \uppercase {Introduction}\global \uuthesis@needtocspacetrue }{1}
+\ifuuthesis@needtocspace \vspace {\uuthesis@chaptersectionspace } \fi \global \uuthesis@needtocspacefalse 
+\contentsline {section}{\numberline {1.1}References}{3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\contentsline {chapter}{\numberline {2.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0 \uppercase {Length scale of and effect of rotation on very large scale motions}\global \uuthesis@needtocspacetrue }{4}
+\ifuuthesis@needtocspace \vspace {\uuthesis@chaptersectionspace } \fi \global \uuthesis@needtocspacefalse 
+\contentsline {section}{\numberline {2.1}Introduction}{4}
+\contentsline {section}{\numberline {2.2}Numerical Simulation}{7}
+\contentsline {subsection}{\numberline {2.2.1}Simulation Setup}{8}
+\contentsline {section}{\numberline {2.3}Results}{9}
+\contentsline {subsection}{\numberline {2.3.1}Bulk Statistics and Mean Vertical Profiles}{10}
+\contentsline {subsection}{\numberline {2.3.2}Correlation and Spectral Characteristics}{11}
+\contentsline {subsection}{\numberline {2.3.3}Filtering and Conditional Averaging}{15}
+\contentsline {section}{\numberline {2.4}Conclusion}{19}
+\contentsline {section}{\numberline {2.5}References}{20}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {chapter}{\numberline {3.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0 \uppercase {Modulation by very large scales and scale-scale energy transfer to and from large-scale motion}\global \uuthesis@needtocspacetrue }{30}
+\ifuuthesis@needtocspace \vspace {\uuthesis@chaptersectionspace } \fi \global \uuthesis@needtocspacefalse 
+\contentsline {section}{\numberline {3.1}Introduction}{30}
+\contentsline {section}{\numberline {3.2}Large Eddy Simulations}{33}
+\contentsline {section}{\numberline {3.3}Modulation of Small Scale Fluctuations by VLSMs}{36}
+\contentsline {section}{\numberline {3.4}Analysis of Interscale Energy Transfer in the Wavelet Domain}{40}
+\contentsline {section}{\numberline {3.5}Summary and Conclusions}{48}
+\contentsline {section}{\numberline {3.6}References}{50}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {4.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0 \uppercase {Time scale of very large scale motions}\global \uuthesis@needtocspacetrue }{64}
+\ifuuthesis@needtocspace \vspace {\uuthesis@chaptersectionspace } \fi \global \uuthesis@needtocspacefalse 
+\contentsline {section}{\numberline {4.1}Introduction}{64}
+\contentsline {section}{\numberline {4.2}Large Eddy Simulation}{66}
+\contentsline {section}{\numberline {4.3}Dynamic Mode Decomposition}{66}
+\contentsline {section}{\numberline {4.4}Results and Discussion}{69}
+\contentsline {section}{\numberline {4.5}Summary and Conclusions}{71}
+\contentsline {section}{\numberline {4.6}References}{71}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\numberline {5.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0 \uppercase {Conclusions and future directions}\global \uuthesis@needtocspacetrue }{78}
+\ifuuthesis@needtocspace \vspace {\uuthesis@chaptersectionspace } \fi \global \uuthesis@needtocspacefalse 
+\contentsline {section}{\numberline {5.1}Summary}{78}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\unhbox \voidb@x \\[-1.2ex] \kern -1.5em\contentsline {}{\textbf {APPENDICES}}{}
+\contentsline {chapter}{\numberline {A.}\hyphenpenalty =10000\exhyphenpenalty =10000\relax \linepenalty =0 \uppercase {Turbulent kinetic energy equation for a horizontally homogeneous, quasi-steady flow}\global \uuthesis@needtocspacetrue }{82}
+\gdef \the@ipfilectr {}

@@ -1,86 +1,60 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sample-thesis-0.aux
-The style file: unsrtnat.bst
 A level-1 auxiliary file: intro.aux
-Illegal, another \bibstyle command---line 8 of file intro.aux
- : \bibstyle
- :          {unsrtnat}
-I'm skipping whatever remains of this command
+The style file: siam.bst
 A level-1 auxiliary file: chap1.aux
 Illegal, another \bibstyle command---line 72 of file chap1.aux
  : \bibstyle
- :          {plainnat}
+ :          {siam}
 I'm skipping whatever remains of this command
 Illegal, another \bibdata command---line 73 of file chap1.aux
  : \bibdata
- :         {MyThesisRefs}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 86 of file sample-thesis-0.aux
- : \bibdata
- :         {MyThesisRefs}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: chap3.aux
-Illegal, another \bibstyle command---line 36 of file chap3.aux
- : \bibstyle
- :          {plainnat}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 37 of file chap3.aux
- : \bibdata
- :         {MyThesisRefs}
+ :         {sample-thesis-0}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: appa.aux
-Illegal, another \bibdata command---line 201 of file sample-thesis-0.aux
- : \bibdata
- :         {sample-thesis-0}
-I'm skipping whatever remains of this command
-Database file #1: MyThesisRefs.bib
+Database file #1: sample-thesis-0.bib
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "nickels_marusic_jfm_2001"
-Name 24 in "Cuxart, J. and A.A.M., Holtslag and Beare, R.J. and Bazile, E. and Beljaars, A. and Cheng, A. and Conangla, L. and Ek, M. and Freedman, F. and Hamdi, R. and Kerstein, A. and Kitagawa, H. and Lenderink, G. and Lewellen, D. and Mailhot, J. and Mauritsen, T. and Perov, V. and Schayes, G. and Steeneveld, G-J. and Svensson, G. and Taylor, P. and Weng, W. and Wunsch, S. and Xu," has a comma at the end for entry cuxart_blm_2006
-while executing---line 1315 of file unsrtnat.bst
-Name 24 in "Cuxart, J. and A.A.M., Holtslag and Beare, R.J. and Bazile, E. and Beljaars, A. and Cheng, A. and Conangla, L. and Ek, M. and Freedman, F. and Hamdi, R. and Kerstein, A. and Kitagawa, H. and Lenderink, G. and Lewellen, D. and Mailhot, J. and Mauritsen, T. and Perov, V. and Schayes, G. and Steeneveld, G-J. and Svensson, G. and Taylor, P. and Weng, W. and Wunsch, S. and Xu," has a comma at the end for entry cuxart_blm_2006
-while executing---line 1315 of file unsrtnat.bst
-You've used 77 entries,
-            2481 wiz_defined-function locations,
-            990 strings with 17829 characters,
-and the built_in function-call counts, 27984 in all, are:
-= -- 2337
-> -- 1481
-< -- 47
-+ -- 585
-- -- 430
-* -- 2136
-:= -- 4631
-add.period$ -- 265
-call.type$ -- 77
-change.case$ -- 146
-chr.to.int$ -- 76
-cite$ -- 77
-duplicate$ -- 1434
-empty$ -- 2538
-format.name$ -- 561
-if$ -- 5885
-int.to.chr$ -- 2
-int.to.str$ -- 78
-missing$ -- 84
-newline$ -- 426
-num.names$ -- 231
-pop$ -- 557
+You've used 38 entries,
+            2030 wiz_defined-function locations,
+            709 strings with 10155 characters,
+and the built_in function-call counts, 13282 in all, are:
+= -- 1257
+> -- 657
+< -- 0
++ -- 265
+- -- 222
+* -- 1043
+:= -- 2086
+add.period$ -- 38
+call.type$ -- 38
+change.case$ -- 222
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 614
+empty$ -- 902
+format.name$ -- 222
+if$ -- 2803
+int.to.chr$ -- 0
+int.to.str$ -- 38
+missing$ -- 43
+newline$ -- 117
+num.names$ -- 74
+pop$ -- 195
 preamble$ -- 1
-purify$ -- 77
+purify$ -- 189
 quote$ -- 0
-skip$ -- 852
+skip$ -- 537
 stack$ -- 0
-substring$ -- 1025
-swap$ -- 159
+substring$ -- 783
+swap$ -- 262
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 512
+type$ -- 142
 warning$ -- 0
-while$ -- 209
-width$ -- 0
-write$ -- 1065
-(There were 9 error messages)
+while$ -- 126
+width$ -- 40
+write$ -- 328
+(There were 2 error messages)

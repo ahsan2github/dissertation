@@ -1,0 +1,138 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Falco(1977)]{falco_pof_77}
+R.~E. Falco.
+\newblock Coherent motions in the outer region of turbulent boundary layers.
+\newblock \emph{The Physics of Fluids}, 20, 1977.
+
+\bibitem[Hommema and Adrian(2003)]{hommema_adrian_blm_03}
+Scott~E. Hommema and Ronald~J. Adrian.
+\newblock Packet structure of surface eddies in the atmospheric boundary layer.
+\newblock \emph{Boundary-Layer Meteorology}, 106:\penalty0 147--170, 2003.
+
+\bibitem[Hussain(1986)]{hussain_1986_jfm}
+A.~K. M.~Fazle Hussain.
+\newblock {Coherent structures and turbulence}.
+\newblock \emph{Journal of Fluid Mechanics}, 173, 1986.
+
+\bibitem[Li and Bou-Zeid(2011)]{li_bouzeid_blm_2011}
+Dan Li and Elie Bou-Zeid.
+\newblock Coherent structures and the dissimilarity of turbulent transport of
+  momentum and scalars in the unstable atmospheric surface layer.
+\newblock \emph{Boundary-Layer Meteorology}, 140\penalty0 (2):\penalty0
+  243--262, Aug 2011.
+\newblock ISSN 1573-1472.
+\newblock \doi{10.1007/s10546-011-9613-5}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10546-011-9613-5}.
+
+\bibitem[Muld et~al.(2012)Muld, Efraimsson, and
+  Henningson]{muld_compFluids_2012}
+Tomas~W. Muld, Gunilla Efraimsson, and Dan~S. Henningson.
+\newblock Flow structures around a high-speed train extracted using proper
+  orthogonal decomposition and dynamic mode decomposition.
+\newblock \emph{Computers \& Fluids}, 57:\penalty0 87 -- 97, 2012.
+\newblock ISSN 0045-7930.
+\newblock \doi{http://dx.doi.org/10.1016/j.compfluid.2011.12.012}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0045793011003847}.
+
+\bibitem[Bagheri(2013)]{bagheri_jfm2013}
+Shervin Bagheri.
+\newblock Koopman-mode decomposition of the cylinder wake.
+\newblock \emph{Journal of Fluid Mechanics}, 726, 2013.
+
+\bibitem[Liu and Zhang(2015)]{liu_ExpF_2015}
+Yingzheng Liu and Qingshan Zhang.
+\newblock Dynamic mode decomposition of separated flow over a finite blunt
+  plate: time-resolved particle image velocimetry measurements.
+\newblock \emph{Experiments in Fluids}, 56\penalty0 (7):\penalty0 148, 2015.
+
+\bibitem[Taira et~al.(2017)Taira, Brunton, Dawson, Rowley, Colonius, McKeon,
+  Schmidt, Gordeyev, Theofilis, and Ukeiley]{taira_arxiv_2017}
+Kunihiko Taira, Steven~L. Brunton, Scott T.~M. Dawson, Clarence~W. Rowley, Tim
+  Colonius, Beverley~J. McKeon, Oliver~T. Schmidt, Stanislav Gordeyev,
+  Vassilios Theofilis, and Lawrence~S. Ukeiley.
+\newblock Modal analysis of fluid flows: an overview.
+\newblock \emph{eprint arXiv:1702.01453}, 2017.
+
+\bibitem[Rowley et~al.(2004)Rowley, Colonius, and Murray]{rowley2004model}
+Clarence~W Rowley, Tim Colonius, and Richard~M Murray.
+\newblock Model reduction for compressible flows using pod and galerkin
+  projection.
+\newblock \emph{Physica D: Nonlinear Phenomena}, 189\penalty0 (1):\penalty0
+  115--129, 2004.
+
+\bibitem[Armbruster et~al.(1994)Armbruster, Heiland, and
+  Kostelich]{armbruster_chaos_94}
+Dieter Armbruster, Randy Heiland, and {Eric J.} Kostelich.
+\newblock Kltool: A tool to analyze spatiotemporal complexity.
+\newblock \emph{Chaos (Woodbury, N.Y.)}, 4, 1994.
+
+\bibitem[{Hellström} et~al.(2011){Hellström}, Sinha, and
+  Smits]{Hellstrom_pof_2011}
+Leo H.~O. {Hellström}, Aman Sinha, and Alexander~J. Smits.
+\newblock Visualizing the very-large-scale motions in turbulent pipe flow.
+\newblock \emph{Physics of Fluids}, 23\penalty0 (1):\penalty0 011703, 2011.
+\newblock \doi{10.1063/1.3533016}.
+\newblock URL \url{http://dx.doi.org/10.1063/1.3533016}.
+
+\bibitem[Bailey and Smith(2010)]{bailey_smits_jfm_2010}
+Sean C.~C. Bailey, B.~N. and Alexander~J. Smith.
+\newblock Experimental investigation of the structure of large- and
+  very-large-scale motions in turbulent pipe flow.
+\newblock \emph{Journal of Fluid Mechanics}, 651:\penalty0 339–356, 2010.
+\newblock \doi{10.1017/S0022112009993983}.
+
+\bibitem[Stabile et~al.(2017)Stabile, Hijazi, Mola, Lorenzi, and
+  Rozza]{stabile2017advances}
+Giovanni Stabile, Saddam Hijazi, Andrea Mola, Stefano Lorenzi, and Gianluigi
+  Rozza.
+\newblock Advances in reduced order modelling for cfd: vortex shedding around a
+  circular cylinder using a pod-galerkin method.
+\newblock \emph{arXiv preprint arXiv:1701.03424}, 2017.
+
+\bibitem[Kutz(2013)]{kutz_book2013}
+J.~Nathan Kutz.
+\newblock Dynamic mode decomposition.
+\newblock In \emph{Data-driven modeling \& scientific computation Methods for
+  Coomplex Systems \& Big Data}. Oxford University Press, 2013.
+
+\bibitem[Schmid(2010)]{schmid_jfm2010}
+Peter~J. Schmid.
+\newblock Dynamic mode decomposition of numerical and experimental data.
+\newblock \emph{Journal of Fluid Mechanics}, 656, 2010.
+
+\bibitem[Rowley et~al.(2009)Rowley, {Mezi\'{c}}, Bagheri, and
+  schlatter]{rowley_mezic_schlatter_jfm_2009}
+Clarence~W. Rowley, Igor {Mezi\'{c}}, Shervin Bagheri, and Philipp schlatter.
+\newblock Spectral analysis of nonlinear flows.
+\newblock \emph{Journal of Fluid Mechanics}, 641, 2009.
+
+\bibitem[Tu(2013)]{tu_thesis}
+Jonathan~H. Tu.
+\newblock \emph{Dynamic mode decomposition: theory and applications}.
+\newblock PhD thesis, Princeton University, 2013.
+
+\bibitem[Kutz et~al.(2016)Kutz, Fu, and Brunton]{kutz_fu_brunton_siam_2016}
+J.~Nathan Kutz, Xing Fu, and Steven~L. Brunton.
+\newblock Multiresolution dynamic mode decomposition.
+\newblock \emph{SIAM Journal on Applied Dynamical Systems}, 15, 2016.
+
+\bibitem[{Gu\'{e}niat} et~al.(2015){Gu\'{e}niat}, Mathelin, and
+  Pastur]{florimond_mathelin_pof_2015}
+Florimond {Gu\'{e}niat}, Lionel Mathelin, and Luc~R. Pastur.
+\newblock A dynamic mode decomposition approach for large and arbitrarily
+  sampled systems.
+\newblock \emph{Physics of Fluids}, 27, 2015.
+
+\bibitem[Hemati et~al.(2014)Hemati, Williams, and Rowley]{hemati_pof_2014}
+Maziar~S. Hemati, Matthew~O. Williams, and Clarence~W. Rowley.
+\newblock Dynamic mode decomposition for large and streaming datasets.
+\newblock \emph{Physics of Fluids}, 26, 2014.
+
+\end{thebibliography}

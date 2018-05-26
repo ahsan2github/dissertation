@@ -66,12 +66,11 @@
 %%% formatting styles, and such changes are likely to conflict with
 %%% University of Utah Thesis Office requirements.  Therefore, minimize
 %%% the number of packages that you include!
-
-\usepackage {mathtools}
-\usepackage {amssymb, unicode-math}
+\usepackage[T1]{fontenc}
+\usepackage {amssymb, mathtools, unicode-math}
 \usepackage {bm}
-\usepackage {bibnames}
-\usepackage {citesort}
+%\usepackage {bibnames}
+%\usepackage {citesort}
 \usepackage {graphicx}
 \usepackage {graphpap}
 \usepackage {longtable}
@@ -82,9 +81,9 @@
 \usepackage{longtable}
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{array}
-
-\usepackage[sectionbib]{natbib} 
-\usepackage{chapterbib}  
+\usepackage[sort, square, sectionbib, numbers]{natbib}
+%\usepackage{chapterbib}   
+%\bibliographystyle{siam} 
 \usepackage{enumerate}
 \usetikzlibrary {decorations.markings}
 \usepackage {varioref}
@@ -141,23 +140,22 @@
 %%% Support for a subject index:
 %
 %: \usepackage {uuthesis-index}
-
+\usepackage {uuthesis-chapterbib}
 %%% ====================================================================
 %%% This single user-specific file is where all personal customizations
 %%% and macro definitions should be placed, and it should come LAST,
 %%% after ALL OTHER packages, in case it needs to override some of their
 %%% definitions.
-
 \usepackage {mythesis}
 
 %%% ====================================================================
 %%% The student-specific front matter fields are defined here:
 
-\author                 {Jane Doe}
-\title                  {INTEGRAL ESTIMATION IN QUANTUM PHYSICS}
+\author                 {Mohammad Ahsanuzzaman Khan}
+\title                  {Identification and characterization of large, and very large scale motions in numerically simulated atmospheric boundary layers}
 \thesistype             {dissertation}
 
-\dedication             {For my parents, Alice and Bob.}
+\dedication             {For my parents, Mukhlisur Rahman Khan and Anwara Khanom}
 
 %%% Most students need just a short degree name, like this:
 \degree                 {Doctor of Philosophy}
@@ -169,16 +167,16 @@
 %%% College- and Department-level definitions:
 \approvaldepartment     {Mechanical Engineering}
 \department             {Department of Mechanical Engineering}
-\graduatedean           {Alice B. Toklas}
-\departmentchair        {Petrus Marcus Aurelius Featherstone-Hough}
+\graduatedean           {David Kieda}
+\departmentchair        {Tim Ameel}
 
 %%% The graduate student's committee members:
-\committeechair         {Cornelius L{\'a}nczos}
-\firstreader            {Hans Bethe}
-\secondreader           {Niels Bohr}
-\thirdreader            {Max Born}
-\fourthreader           {Paul A. M. Dirac}
-\chairtitle             {Professor}
+\committeechair         {Rob Stoll}
+\firstreader            {Eric Pardyjak}
+\secondreader           {Marc Calaf}
+\thirdreader            {Meredith Metzger}
+\fourthreader           {Steven K. Krueger}
+\chairtitle             {Associate Professor}
 
 %%% NB: It is rare, but possible, for there to be two chairs, For
 %%% example, one student had
@@ -190,15 +188,15 @@
 
 %%% Dates that must be adjusted for each academic term, and be permitted
 %%% according to the University of Utah Thesis Office:
-\submitdate             {May 2016}
-\copyrightyear          {2016}
+\submitdate             {May 2018}
+\copyrightyear          {2018}
 
 %%% Dates on which committee members approved the thesis
-\chairdateapproved      {17 Feb 2016}
-\firstdateapproved      {17 Feb 2016}
-\seconddateapproved     {17 Feb 2016}
-\thirddateapproved      {17 Feb 2016}
-\fourthdateapproved     {17 Feb 2016}
+\chairdateapproved      {}
+\firstdateapproved      {}
+\seconddateapproved     {}
+\thirddateapproved      {}
+\fourthdateapproved     {}
 
 %%% ====================================================================
 %%% Typesetting begins here:
@@ -212,9 +210,9 @@
 \dissertationapproval
 \setcounter {page}     {2}             % UofU Thesis Office demands abstract on p. iii: start one lower
 \preface    {abstract} {Abstract}
-%\dedicationpage
+\dedicationpage
 \tableofcontents
-\listoffigures  
+\listoffigures
 \listoftables
 %
 %%% Optional front matter page(s), made from source "notation.tex". If
@@ -224,7 +222,7 @@
 %%% file must NOT contain \chapter, \section, \subsection, \ldots{}
 %%% sectioning commands.
 
-\optionalfront {Notation and Symbols} {\input{notation}}
+%\optionalfront {Notation and Symbols} {\input{notation}}
 
 %%% Uncomment this is you want the contents of acknowledge.tex typeset here.
 %%% Note that both "Acknowledgement" and "Acknowledgment" are accepted
@@ -240,14 +238,14 @@
 
 \pagestyle{headings} % NEW for sample-thesis-6
 
-\include {intro} 
-\include {chap1}
+\include{intro} 
+\include{chap1}
 \include{chap2}
-\include {chap3}
+\include{chap3}
 \include{conclusion}
 
 % \numberofappendices = 1   % Set 0 for none, else number of appendices.
-\numberofappendices = 1
+\numberofappendices = 0
 \appendix       % Chapters, sections are now appendix style A, A.1, A.2, B, C, D, ...
 \include{appa}
 
@@ -291,8 +289,8 @@
 %%% are listed here, using the name \jobname.bbl.
 %%%
 %%% LaTeX reads BibTeX's formatted reference list from the file
-%%% \jobname.bbl.
+%%\jobname.bbl.
 
-\bibliography{\jobname}
+
 
 \end {document}
