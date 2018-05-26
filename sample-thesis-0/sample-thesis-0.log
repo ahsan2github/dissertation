@@ -1,0 +1,3821 @@
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.5.25)  26 MAY 2018 00:18
+ restricted system commands enabled.
+**sample-thesis-0.tex
+(./sample-thesis-0.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/ahsan/.texlive2017/texmf-var/luatex-cache/gen
+eric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/ahsan/.texlive
+2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/ahsan/.texlive2017/texmf-var/l
+uatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/ahsan/.texlive2017/texmf-var/l
+uatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.119 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+(./uuthesis2e.cls
+Document Class: uuthesis2e 1998/04/01 v1.3 University of Utah Thesis Class
+Document Style `uuthesis2e'. Version 1.8d - 6 Apr 1996
+(./Chicago.clo) (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/ahsan/.texlive2017/texmf
+-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/ahsan/.texl
+ive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
+Using 11pt option
+Option 11pt uses 5pt for 'tiny': microfilm needs 2mm.
+\footheight=\dimen102
+\numberofappendices=\count79
+\c@part=\count80
+\c@chapter=\count81
+\@titlesize=\dimen103
+\@maxsize=\dimen104
+\c@figure=\count82
+\c@table=\count83
+\descriptionmargin=\dimen105
+\minilength=\skip41
+\c@oldchapter=\count84
+\c@oldtocdepth=\count85
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks14
+\thm@bodyfont=\toks15
+\thm@headfont=\toks16
+\thm@notefont=\toks17
+\thm@headpunct=\toks18
+\thm@preskip=\skip42
+\thm@postskip=\skip43
+\thm@headsep=\skip44
+\dth@everypar=\toks19
+LaTeX Info: Redefining \qed on input line 274.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+\c@section=\count86
+\c@subsection=\count87
+\c@paragraph=\count88
+\c@subsubsection=\count89
+
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count90
+\calc@Bcount=\count91
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count92
+\calc@Cskip=\skip47
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen108
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen109
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks22
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks23
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks24
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count105
+\l_MT_multwidth_dim=\dimen117
+\origjot=\skip51
+\l_MT_shortvdotswithinadjustabove_dim=\dimen118
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen119
+\l_MT_above_intertext_sep=\dimen120
+\l_MT_below_intertext_sep=\dimen121
+\l_MT_above_shortintertext_sep=\dimen122
+\l_MT_below_shortintertext_sep=\dimen123
+) (./amssymb.sty
+Package: amssymb 1996/11/03 v2.2b
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\ucharcat@table=\catcodetable5
+\c_max_int=\count106
+\l_tmpa_int=\count107
+\l_tmpb_int=\count108
+\g_tmpa_int=\count109
+\g_tmpb_int=\count110
+\g__intarray_font_int=\count111
+\g__prg_map_int=\count112
+\c_log_iow=\count113
+\l_iow_line_count_int=\count114
+\l__iow_line_target_int=\count115
+\l__iow_one_indent_int=\count116
+\l__iow_indent_int=\count117
+\c_zero_dim=\dimen124
+\c_max_dim=\dimen125
+\l_tmpa_dim=\dimen126
+\l_tmpb_dim=\dimen127
+\g_tmpa_dim=\dimen128
+\g_tmpb_dim=\dimen129
+\c_zero_skip=\skip52
+\c_max_skip=\skip53
+\l_tmpa_skip=\skip54
+\l_tmpb_skip=\skip55
+\g_tmpa_skip=\skip56
+\g_tmpb_skip=\skip57
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count118
+\c__fp_leading_shift_int=\count119
+\c__fp_middle_shift_int=\count120
+\c__fp_trailing_shift_int=\count121
+\c__fp_big_leading_shift_int=\count122
+\c__fp_big_middle_shift_int=\count123
+\c__fp_big_trailing_shift_int=\count124
+\c__fp_Bigg_leading_shift_int=\count125
+\c__fp_Bigg_middle_shift_int=\count126
+\c__fp_Bigg_trailing_shift_int=\count127
+\c__fp_rand_size_int=\count128
+\c__fp_rand_four_int=\count129
+\c__fp_rand_eight_int=\count130
+\l__sort_length_int=\count131
+\l__sort_min_int=\count132
+\l__sort_top_int=\count133
+\l__sort_max_int=\count134
+\l__sort_true_max_int=\count135
+\l__sort_block_int=\count136
+\l__sort_begin_int=\count137
+\l__sort_end_int=\count138
+\l__sort_A_int=\count139
+\l__sort_B_int=\count140
+\l__sort_C_int=\count141
+\l__tl_build_start_index_int=\count142
+\l__tl_build_index_int=\count143
+\l__tl_analysis_normal_int=\count144
+\l__tl_analysis_index_int=\count145
+\l__tl_analysis_nesting_int=\count146
+\l__tl_analysis_type_int=\count147
+\l__regex_internal_a_int=\count148
+\l__regex_internal_b_int=\count149
+\l__regex_internal_c_int=\count150
+\l__regex_balance_int=\count151
+\l__regex_group_level_int=\count152
+\l__regex_mode_int=\count153
+\c__regex_cs_in_class_mode_int=\count154
+\c__regex_cs_mode_int=\count155
+\l__regex_catcodes_int=\count156
+\l__regex_default_catcodes_int=\count157
+\c__regex_catcode_L_int=\count158
+\c__regex_catcode_O_int=\count159
+\c__regex_catcode_A_int=\count160
+\c__regex_all_catcodes_int=\count161
+\l__regex_show_lines_int=\count162
+\l__regex_min_state_int=\count163
+\l__regex_max_state_int=\count164
+\l__regex_left_state_int=\count165
+\l__regex_right_state_int=\count166
+\l__regex_capturing_group_int=\count167
+\l__regex_min_pos_int=\count168
+\l__regex_max_pos_int=\count169
+\l__regex_curr_pos_int=\count170
+\l__regex_start_pos_int=\count171
+\l__regex_success_pos_int=\count172
+\l__regex_curr_char_int=\count173
+\l__regex_curr_catcode_int=\count174
+\l__regex_last_char_int=\count175
+\l__regex_case_changed_char_int=\count176
+\l__regex_curr_state_int=\count177
+\l__regex_step_int=\count178
+\l__regex_min_active_int=\count179
+\l__regex_max_active_int=\count180
+\l__regex_replacement_csnames_int=\count181
+\l__regex_match_count_int=\count182
+\l__regex_min_submatch_int=\count183
+\l__regex_submatch_int=\count184
+\l__regex_zeroth_submatch_int=\count185
+\g__regex_trace_regex_int=\count186
+\c_empty_box=\box28
+\l_tmpa_box=\box29
+\l_tmpb_box=\box30
+\g_tmpa_box=\box31
+\g_tmpb_box=\box32
+\l__box_top_dim=\dimen130
+\l__box_bottom_dim=\dimen131
+\l__box_left_dim=\dimen132
+\l__box_right_dim=\dimen133
+\l__box_top_new_dim=\dimen134
+\l__box_bottom_new_dim=\dimen135
+\l__box_left_new_dim=\dimen136
+\l__box_right_new_dim=\dimen137
+\l__box_internal_box=\box33
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen138
+\l__coffin_offset_x_dim=\dimen139
+\l__coffin_offset_y_dim=\dimen140
+\l__coffin_x_dim=\dimen141
+\l__coffin_y_dim=\dimen142
+\l__coffin_x_prime_dim=\dimen143
+\l__coffin_y_prime_dim=\dimen144
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen145
+\l__coffin_display_x_dim=\dimen146
+\l__coffin_display_y_dim=\dimen147
+\l__coffin_bounding_shift_dim=\dimen148
+\l__coffin_left_corner_dim=\dimen149
+\l__coffin_right_corner_dim=\dimen150
+\l__coffin_bottom_corner_dim=\dimen151
+\l__coffin_top_corner_dim=\dimen152
+\l__coffin_scaled_total_height_dim=\dimen153
+\l__coffin_scaled_width_dim=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count187
+\l__driver_tmp_box=\box43
+))
+Package: unicode-math 2018/02/02 vv0.8l Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
+Package: unicode-math-luatex 2018/02/02 vv0.8l Unicode maths in XeLaTeX and LuaL
+aTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count188
+\g__xparse_grabber_int=\count189
+\l__xparse_m_args_int=\count190
+\l__xparse_mandatory_args_int=\count191
+\l__xparse_v_nesting_int=\count192
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count193
+\l__fontspec_language_int=\count194
+\l__fontspec_strnum_int=\count195
+\l__fontspec_tmp_int=\count196
+\l__fontspec_em_int=\count197
+\l__fontspec_emdef_int=\count198
+\l__fontspec_strong_int=\count199
+\l__fontspec_strongdef_int=\count266
+\l__fontspec_tmpa_dim=\dimen155
+\l__fontspec_tmpb_dim=\dimen156
+\l__fontspec_tmpc_dim=\dimen157
+\g__file_internal_ior=\read1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 545.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 549.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 553.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 557.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 561.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 569.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 573.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 577.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 581.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 585.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 593.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeature with sig. 'm' on line 597.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 605.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 609.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newICUfeature with sig. 'mmm' on line 613.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 617.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 621.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 625.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 629.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 637.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3366.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3372.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3384.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3421.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareAccent with sig. 'm' on line 3427.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3433.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3440.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3625.
+LaTeX Info: Redefining \slshape on input line 3630.
+LaTeX Info: Redefining \scshape on input line 3635.
+LaTeX Info: Redefining \upshape on input line 3640.
+LaTeX Info: Redefining \em on input line 3670.
+LaTeX Info: Redefining \emph on input line 3695.
+(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
+oman10-bold.luc)(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/gener
+ic/fonts/otl/lmroman10-italic.luc)
+LaTeX Info: Redefining \- on input line 3749.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 3844.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 3848.
+.................................................
+))
+(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+))
+(/usr/share/texlive/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
+Package: lualatex-math 2017/06/15 v1.7 Patches for mathematics typesetting with 
+LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
+)
+Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
+h LuaLaTeX
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \subarray.
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \frac .
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \genfrac .
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \MT_cramped_internal:Nn.
+.................................................
+)
+\g__um_fam_int=\count268
+\g__um_fonts_used_int=\count269
+\l__um_primecount_int=\count270
+\g__um_primekern_muskip=\muskip17
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \unimathsetup with sig. 'm' on line 277.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathfont with sig. 'O{}mO{}' on line 281.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathfontface with sig. 'mO{}mO{}' on line 285.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setoperatorfont with sig. 'm' on line 290.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addnolimits with sig. 'm' on line 295.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \removenolimits with sig. 'm' on line 299.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)
+*************************************************
+* unicode-math warning: "mathtools-colon"
+* 
+* I'm going to overwrite the following commands from the `mathtools' package: 
+*  
+*      \dblcolon, \coloneqq, \Coloneqq, \eqqcolon. 
+*  
+*  Note that since I won't overwrite the other colon-like commands, using them
+* will lead to inconsistencies.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dblcolon with sig. '' on line 3608.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \coloneqq with sig. '' on line 3608.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Coloneqq with sig. '' on line 3608.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \eqqcolon with sig. '' on line 3608.
+.................................................
+.................................................
+. unicode-math info: "patch-macro"
+. 
+. I'm going to patch macro \plainroot@.
+.................................................
+.................................................
+. unicode-math info: "patch-macro"
+. 
+. I'm going to patch macro \r@@t.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \not with sig. 'm' on line 3840.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \NewNegationCommand with sig. 'mm' on line 3844.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \RenewNegationCommand with sig. 'mm' on line 3848.
+.................................................
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldupright=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+) (./bibnames.sty
+This is bibnames.sty, Version 1.04 <13 June 1992>
+(/usr/share/texlive/texmf-dist/tex/generic/beebe/texnames.sty
+This is texnames.sty, Version 1.10 <02 March 1998>
+)) (./citesort.sty
+\@minsofar=\count271
+\@min=\count272
+\@cite@temp=\count273
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/graphpap.sty
+Package: graphpap 1994/08/09 v1.0c Standard LaTeX graphpap package (LL)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip58
+\LTright=\skip59
+\LTpre=\skip60
+\LTpost=\skip61
+\LTchunksize=\count274
+\LTcapwidth=\dimen160
+\LT@head=\box44
+\LT@firsthead=\box45
+\LT@foot=\box46
+\LT@lastfoot=\box47
+\LT@cols=\count275
+\LT@rows=\count276
+\c@LT@tables=\count277
+\c@LT@chunks=\count278
+\LT@p@ftn=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count279
+\multirow@dima=\skip63
+\bigstrutjot=\dimen161
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen162
+\AM@pageheight=\dimen163
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def
+File: ppluatex.def 2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
+)
+\AM@pagebox=\box48
+\AM@global@opts=\toks27
+\AM@toc@title=\toks28
+\c@AM@survey=\count280
+\AM@templatesizebox=\box49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box50
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen166
+\pgf@y=\dimen167
+\pgf@xa=\dimen168
+\pgf@ya=\dimen169
+\pgf@xb=\dimen170
+\pgf@yb=\dimen171
+\pgf@xc=\dimen172
+\pgf@yc=\dimen173
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count281
+\c@pgf@countb=\count282
+\c@pgf@countc=\count283
+\c@pgf@countd=\count284
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count285
+\pgfsyssoftpath@bigbuffer@items=\count286
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count287
+\pgfmath@box=\box51
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count288
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen175
+\pgf@picmaxx=\dimen176
+\pgf@picminy=\dimen177
+\pgf@picmaxy=\dimen178
+\pgf@pathminx=\dimen179
+\pgf@pathmaxx=\dimen180
+\pgf@pathminy=\dimen181
+\pgf@pathmaxy=\dimen182
+\pgf@xx=\dimen183
+\pgf@xy=\dimen184
+\pgf@yx=\dimen185
+\pgf@yy=\dimen186
+\pgf@zx=\dimen187
+\pgf@zy=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen189
+\pgf@path@lasty=\dimen190
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen191
+\pgf@shorten@start@additional=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count289
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen193
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen194
+\pgf@pt@y=\dimen195
+\pgf@pt@temp=\dimen196
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen197
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen198
+\pgf@sys@shading@range@num=\count290
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box55
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box56
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen199
+\pgf@nodesepend=\dimen256
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen257
+\pgffor@skip=\dimen258
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count291
+\pgfplotmarksize=\dimen259
+)
+\tikz@lastx=\dimen260
+\tikz@lasty=\dimen261
+\tikz@lastxsaved=\dimen262
+\tikz@lastysaved=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count292
+\tikznumberofchildren=\count293
+\tikznumberofcurrentchild=\count294
+\tikz@fig@count=\count295
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count296
+\pgfmatrixcurrentcolumn=\count297
+\pgf@matrix@numberofcolumns=\count298
+)
+\tikz@expandcount=\count299
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)))))
+\c@section@level=\count300
+LaTeX Info: Redefining \ref on input line 355.
+LaTeX Info: Redefining \pageref on input line 355.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen266
+\extrarowheight=\dimen267
+\NC@list=\toks41
+\extratabsurround=\skip64
+\backup@length=\skip65
+))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip66
+\bibsep=\skip67
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count301
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cite/chapterbib.sty
+\c@inputfile=\count302
+Package: chapterbib 2010/09/18  v 1.17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks42
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen268
+\pgfdecoratedremainingdistance=\dimen269
+\pgfdecoratedinputsegmentcompleteddistance=\dimen270
+\pgfdecoratedinputsegmentremainingdistance=\dimen271
+\pgf@decorate@distancetomove=\dimen272
+\pgf@decorate@repeatstate=\count303
+\pgfdecorationsegmentamplitude=\dimen273
+\pgfdecorationsegmentlength=\dimen274
+)
+\tikz@lib@dec@box=\box61
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
+\c@vrcnt=\count304
+)
+(./uuthesis-2016-h.sty
+Package: uuthesis-2016-h 2016/05/02 v1.08
+
+===============================================================================
+
+This is uuthesis-2016-h.sty version 1.08 <2 May 2016>
+
+===============================================================================
+(./dissertationapproval.sty)
+\uuthesis@chaptersectionspace=\dimen275
+) (./mythesis.sty) (./sample-thesis-0.aux
+(./intro.aux) (./chap1.aux)
+
+LaTeX Warning: Label `eqn:les_eqn' multiply defined.
+
+
+LaTeX Warning: Label `tab:sim_param' multiply defined.
+
+(./chap3.aux
+
+LaTeX Warning: Label `tab:sim_param' multiply defined.
+
+) (./conclusion.aux) (./appa.aux
+
+LaTeX Warning: Label `eqn:tke_horz_avg' multiply defined.
+
+)
+
+Package natbib Warning: Citation `lumely_yaglom_FTC_2001' multiply defined.
+
+
+Package natbib Warning: Citation `hinze_book_75' multiply defined.
+
+
+Package natbib Warning: Citation `tsinober_book_2001' multiply defined.
+
+
+Package natbib Warning: Citation `hussain_1986_jfm' multiply defined.
+
+
+Package natbib Warning: Citation `lewalle_flowTurbCom_00' multiply defined.
+
+
+Package natbib Warning: Citation `Fiedler_PAeroSci_1988' multiply defined.
+
+
+Package natbib Warning: Citation `Chinthaka_blm_2017' multiply defined.
+
+
+Package natbib Warning: Citation `kerherv_roux_etfs_2017' multiply defined.
+
+
+Package natbib Warning: Citation `guala_adrian_jfm2006' multiply defined.
+
+
+Package natbib Warning: Citation `kim_adrian_pof99' multiply defined.
+
+
+Package natbib Warning: Citation `monty_jfm_07' multiply defined.
+
+
+Package natbib Warning: Citation `lee_sung_jfm_14' multiply defined.
+
+
+Package natbib Warning: Citation `fang2015blm' multiply defined.
+
+
+Package natbib Warning: Citation `hutchins_marusic_jfm2007' multiply defined.
+
+
+Package natbib Warning: Citation `Lee_sung_jfm11' multiply defined.
+
+
+Package natbib Warning: Citation `baltzer_jfm_13' multiply defined.
+
+
+Package natbib Warning: Citation `chung_jfm_10_large' multiply defined.
+
+
+Package natbib Warning: Citation `ganapathi_jfm_2012_modulation' multiply define
+d.
+
+
+Package natbib Warning: Citation `esau_jot_2002' multiply defined.
+
+
+Package natbib Warning: Citation `stoll_wrr_2006' multiply defined.
+
+
+Package natbib Warning: Citation `stoll_blm_2008' multiply defined.
+
+
+Package natbib Warning: Citation `stoll_blm_2006' multiply defined.
+
+
+Package natbib Warning: Citation `stoll_jas_2009' multiply defined.
+
+
+Package natbib Warning: Citation `bailey_blm_2013' multiply defined.
+
+
+Package natbib Warning: Citation `miller_blm_2013' multiply defined.
+
+
+Package natbib Warning: Citation `bailey_ae_2014' multiply defined.
+
+
+Package natbib Warning: Citation `bailey_jfm_2016' multiply defined.
+
+
+Package natbib Warning: Citation `andren_brown_qjrm_94' multiply defined.
+
+
+Package natbib Warning: Citation `cuxart_blm_2006' multiply defined.
+
+
+Package natbib Warning: Citation `book-garrat-blm' multiply defined.
+
+
+Package natbib Warning: Citation `Bouzeid_pof_2005' multiply defined.
+
+
+Package natbib Warning: Citation `traumner_blm_2015' multiply defined.
+
+
+Package natbib Warning: Citation `perry_chng_jfm_86' multiply defined.
+
+
+Package natbib Warning: Citation `saddoughi1994' multiply defined.
+
+
+Package natbib Warning: Citation `dennis_nickels_jfm2011' multiply defined.
+
+
+Package natbib Warning: Citation `book_comp_vision_davies' multiply defined.
+
+
+Package natbib Warning: Citation `book_intro_dimg_proc_pratt' multiply defined.
+
+
+Package natbib Warning: Citation `de_silva_hutchins_jfm_2016' multiply defined.
+
+
+Package natbib Warning: Citation `balakumar_adrian_ptrs_07' multiply defined.
+
+
+Package natbib Warning: Citation `hill_jfm2002' multiply defined.
+
+
+Package natbib Warning: Citation `marati_jfm_2004' multiply defined.
+
+
+Package natbib Warning: Citation `landahl_christensen_book_92' multiply defined.
+
+
+
+Package natbib Warning: Citation `MATHIS2009' multiply defined.
+
+
+Package natbib Warning: Citation `Bernardini2011' multiply defined.
+
+
+Package natbib Warning: Citation `daubechies88' multiply defined.
+
+
+Package natbib Warning: Citation `book_burrus_gopi' multiply defined.
+
+
+Package natbib Warning: Citation `dim_gonzalez' multiply defined.
+
+
+Package natbib Warning: Citation `rice_wavelet_toolbox' multiply defined.
+
+
+Package natbib Warning: Citation `meneveau_91jfm' multiply defined.
+
+
+Package natbib Warning: Citation `leonard1975' multiply defined.
+
+
+Package natbib Warning: Citation `domaradzki_pof_1994' multiply defined.
+
+
+Package natbib Warning: Citation `dunn_jfm_2003' multiply defined.
+
+
+Package natbib Warning: Citation `dunn_cf2005' multiply defined.
+
+
+Package natbib Warning: Citation `bourouiba_straub_jfm11' multiply defined.
+
+
+Package natbib Warning: Citation `yeung_zhou_pof_98' multiply defined.
+
+
+Package natbib Warning: Citation `hossain_pof_94' multiply defined.
+
+
+Package natbib Warning: Citation `hussain_1983_csreality' multiply defined.
+
+
+Package natbib Warning: Citation `davidson_turb_book' multiply defined.
+
+
+Package natbib Warning: Citation `falco_pof_77' multiply defined.
+
+
+Package natbib Warning: Citation `hommema_adrian_blm_03' multiply defined.
+
+
+Package natbib Warning: Citation `li_bouzeid_blm_2011' multiply defined.
+
+
+Package natbib Warning: Citation `muld_compFluids_2012' multiply defined.
+
+
+Package natbib Warning: Citation `bagheri_jfm2013' multiply defined.
+
+
+Package natbib Warning: Citation `liu_ExpF_2015' multiply defined.
+
+
+Package natbib Warning: Citation `taira_arxiv_2017' multiply defined.
+
+
+Package natbib Warning: Citation `rowley2004model' multiply defined.
+
+
+Package natbib Warning: Citation `armbruster_chaos_94' multiply defined.
+
+
+Package natbib Warning: Citation `Hellstrom_pof_2011' multiply defined.
+
+
+Package natbib Warning: Citation `bailey_smits_jfm_2010' multiply defined.
+
+
+Package natbib Warning: Citation `stabile2017advances' multiply defined.
+
+
+Package natbib Warning: Citation `kutz_book2013' multiply defined.
+
+
+Package natbib Warning: Citation `schmid_jfm2010' multiply defined.
+
+
+Package natbib Warning: Citation `rowley_mezic_schlatter_jfm_2009' multiply defi
+ned.
+
+
+Package natbib Warning: Citation `tu_thesis' multiply defined.
+
+
+Package natbib Warning: Citation `kutz_fu_brunton_siam_2016' multiply defined.
+
+
+Package natbib Warning: Citation `florimond_mathelin_pof_2015' multiply defined.
+
+
+
+Package natbib Warning: Citation `hemati_pof_2014' multiply defined.
+
+)
+\openout1 = sample-thesis-0.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 207.
+LaTeX Font Info:    ... okay on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/ppl/m/n --> TU/lmr/m/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/ppl/m/it --> TU/lmr/m/it on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/ppl/b/n --> TU/lmr/bx/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 207.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 207.
+(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lat
+inmodern-math.luc)
+\g__fontspec_family_latinmodern-math.otf_int=\count305
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 29
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 29
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'latinmodern-math.otf(0)' created for font
+. 'latinmodern-math.otf' with options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,FontAdjustment={\_
+_um_luatex_copy_fontdimens:
+. },BoldFont={latinmodern-math.otf}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: 
+.................................................
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 29
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 29
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'latinmodern-math.otf(1)' created for font
+. 'latinmodern-math.otf' with options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=9.475-},{Size=7-9.475,Font=latinmodern-math.otf,Style=MathScript},{Size=-7,Fon
+t=latinmodern-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_cop
+y_fontdimens:
+. },BoldFont={latinmodern-math.otf}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <9.475->"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"<7-9.475>
+"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;+ssty=0;"<-7>"[latin
+modern-math.otf]:mode=base;script=math;language=DFLT;+ssty=1;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: 
+.................................................
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 207.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/ppl/m/n --> TU/latinmodern-math.otf(1)/m/n on input 
+line 207.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 207.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ppl/b/n --> TU/latinmodern-math.otf(1)/bx/n on input
+ line 207.
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 29
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 29
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'latinmodern-math.otf(2)' created for font
+. 'latinmodern-math.otf' with options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=9.475-},{Size=7-9.475,Font=latinmodern-math.otf,Style=MathScript},{Size=-7,Fon
+t=latinmodern-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_cop
+y_fontdimens:
+. },BoldFont={latinmodern-math.otf},Scale=1.00001,FontAdjustment={\fontdimen
+. 8\font =7.41315pt\relax \fontdimen 9\font =4.31429pt\relax \fontdimen
+. 10\font =4.86179pt\relax \fontdimen 11\font =7.51169pt\relax \fontdimen
+. 12\font =3.77774pt\relax \fontdimen 13\font =3.97484pt\relax \fontdimen
+. 14\font =3.97484pt\relax \fontdimen 15\font =3.16454pt\relax \fontdimen
+. 16\font =2.70464pt\relax \fontdimen 17\font =2.70464pt\relax \fontdimen
+. 18\font =2.73749pt\relax \fontdimen 19\font =2.18999pt\relax \fontdimen
+. 22\font =2.73749pt\relax \fontdimen 20\font =0pt\relax \fontdimen 21\font
+. =0pt\relax }].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <9.475->s*[1.00001]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT
+;"<7-9.475>s*[1.00001]"[latinmodern-math.otf]:mode=base;script=math;language=DFL
+T;+ssty=0;"<-7>s*[1.00001]"[latinmodern-math.otf]:mode=base;script=math;language
+=DFLT;+ssty=1;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: \fontdimen 8\font =7.41315pt\relax \fontdimen
+. 9\font =4.31429pt\relax \fontdimen 10\font =4.86179pt\relax \fontdimen
+. 11\font =7.51169pt\relax \fontdimen 12\font =3.77774pt\relax \fontdimen
+. 13\font =3.97484pt\relax \fontdimen 14\font =3.97484pt\relax \fontdimen
+. 15\font =3.16454pt\relax \fontdimen 16\font =2.70464pt\relax \fontdimen
+. 17\font =2.70464pt\relax \fontdimen 18\font =2.73749pt\relax \fontdimen
+. 19\font =2.18999pt\relax \fontdimen 22\font =2.73749pt\relax \fontdimen
+. 20\font =0pt\relax \fontdimen 21\font =0pt\relax 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->s*[1.00001]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: \fontdimen 8\font =7.41315pt\relax \fontdimen
+. 9\font =4.31429pt\relax \fontdimen 10\font =4.86179pt\relax \fontdimen
+. 11\font =7.51169pt\relax \fontdimen 12\font =3.77774pt\relax \fontdimen
+. 13\font =3.97484pt\relax \fontdimen 14\font =3.97484pt\relax \fontdimen
+. 15\font =3.16454pt\relax \fontdimen 16\font =2.70464pt\relax \fontdimen
+. 17\font =2.70464pt\relax \fontdimen 18\font =2.73749pt\relax \fontdimen
+. 19\font =2.18999pt\relax \fontdimen 22\font =2.73749pt\relax \fontdimen
+. 20\font =0pt\relax \fontdimen 21\font =0pt\relax 
+.................................................
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 207.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/zplm/m/n --> TU/latinmodern-math.otf(2)/m/n on input
+ line 207.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 207.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/zplm/b/n --> TU/latinmodern-math.otf(2)/bx/n on inpu
+t line 207.
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 29
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 29
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'latinmodern-math.otf(3)' created for font
+. 'latinmodern-math.otf' with options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=9.475-},{Size=7-9.475,Font=latinmodern-math.otf,Style=MathScript},{Size=-7,Fon
+t=latinmodern-math.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_cop
+y_fontdimens:
+. },BoldFont={latinmodern-math.otf},Scale=0.99999,FontAdjustment={\fontdimen
+. 8\font =0.43799pt\relax \fontdimen 9\font =2.18999pt\relax \fontdimen
+. 10\font =1.82864pt\relax \fontdimen 11\font =1.21544pt\relax \fontdimen
+. 12\font =6.56999pt\relax \fontdimen 13\font =0pt\relax }].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <9.475->s*[0.99999]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT
+;"<7-9.475>s*[0.99999]"[latinmodern-math.otf]:mode=base;script=math;language=DFL
+T;+ssty=0;"<-7>s*[0.99999]"[latinmodern-math.otf]:mode=base;script=math;language
+=DFLT;+ssty=1;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: \fontdimen 8\font =0.43799pt\relax \fontdimen
+. 9\font =2.18999pt\relax \fontdimen 10\font =1.82864pt\relax \fontdimen
+. 11\font =1.21544pt\relax \fontdimen 12\font =6.56999pt\relax \fontdimen
+. 13\font =0pt\relax 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->s*[0.99999]"[latinmodern-math.otf]:mode=base;script=math;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. and font adjustment code:
+. \__um_luatex_copy_fontdimens: \fontdimen 8\font =0.43799pt\relax \fontdimen
+. 9\font =2.18999pt\relax \fontdimen 10\font =1.82864pt\relax \fontdimen
+. 11\font =1.21544pt\relax \fontdimen 12\font =6.56999pt\relax \fontdimen
+. 13\font =0pt\relax 
+.................................................
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 20
+7.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/zplm/m/n --> TU/latinmodern-math.otf(3)/m/n on input
+ line 207.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 207.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/zplm/m/n --> TU/latinmodern-math.otf(3)/bx/n on inpu
+t line 207.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 207.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.95015pt on input line 207.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.67863pt on input line 207.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.45398pt on input line 207.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.94983pt on input line 207.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.6784pt on input line 207.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.45381pt on input line 207.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 207.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 207.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.00107pt on input line 207.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.683pt on input line 207.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 207.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.00107pt on input line 207.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.683pt on input line 207.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 207.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 207.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+*************************************************
+* unicode-math warning: "mathtools-overbracket"
+* 
+* Using \overbracket and \underbracket from `mathtools' package.
+*  
+*  Use \Uoverbracket and \Uunderbracket for original `unicode-math'
+* definition.
+*************************************************
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen276
+\scratchbox=\box62
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen277
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks44
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks45
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+\AtBeginShipoutBox=\box63
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+ABD: EveryShipout initializing macros
+LaTeX Info: Redefining \Ref on input line 207.
+(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
+oman12-regular.luc)(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/ge
+neric/fonts/otl/lmroman12-bold.luc)
+Title.
+[-1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Copyright.
+[-1](load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl
+/lmroman6-regular.luc) [2] (./abstract.tex)
+Abstract.
+[3]
+Dedication.
+[4] (./sample-thesis-0.toc [5])
+\tf@toc=\write4
+
+\openout4 = sample-thesis-0.toc
+
+Contents.
+[6]
+List of Figures.
+(./sample-thesis-0.lof
+Missing character: There is no ⭒ (U+2B52) in font [latinmodern-math.otf]:mode=
+base;script=math;language=DFLT;!
+Missing character: There is no ⭒ (U+2B52) in font [latinmodern-math.otf]:mode=
+base;script=math;language=DFLT;!
+Missing character: There is no ▿ (U+25BF) in font [latinmodern-math.otf]:mode=
+base;script=math;language=DFLT;!
+Missing character: There is no ▿ (U+25BF) in font [latinmodern-math.otf]:mode=
+base;script=math;language=DFLT;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00009pt on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99991pt on input line 17.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 17.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 17.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 17.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 17.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 17.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8])
+\tf@lof=\write5
+
+\openout5 = sample-thesis-0.lof
+
+[9]
+List of Tables.
+(./sample-thesis-0.lot
+Overfull \hbox (22.3878pt too wide) in paragraph at lines 5--5
+ \TU/lmr/m/n/10.95 than the spec-i-fied thresh-old at a height of $\TU/latinmod
+ern-math.otf(1)/m/n/10.95 𝑥[] = 0.45𝛿$ \TU/lmr/m/n/10.95 ($\TU/latinmoder
+n-math.otf(1)/m/n/10.95 ±0.01𝛿$\TU/lmr/m/n/10.95 ) for the $\TU/latinmodern
+-math.otf(1)/m/n/10.95 𝑢[]$\TU/lmr/m/n/10.95 -component 
+ []
+
+)
+\tf@lot=\write6
+
+\openout6 = sample-thesis-0.lot
+ [10]
+Notation and Symbols.
+(./notation.tex) [11]
+\openout2 = intro.aux
+ (./intro.tex
+DEBUG: @chapter: arg 1 = [Introduction]
+DEBUG: @chapter: arg 2 = [{\hyphenpenalty =10000\exhyphenpenalty =10000\relax In
+troduction}]
+CHAPTER 1.
+
+Package natbib Warning: Citation `lumely_yaglom_FTC_2001' on page 1 undefined on
+ input line 2.
+
+
+Package natbib Warning: Citation `hinze_book_75' on page 1 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `tsinober_book_2001' on page 1 undefined on inp
+ut line 6.
+
+
+Package natbib Warning: Citation `tsinober_book_2001' on page 1 undefined on inp
+ut line 6.
+
+[1
+
+
+
+](load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
+romanslant10-regular.luc)
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[2]
+No file intro.bbl.
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[3])
+\openout2 = chap1.aux
+ (./chap1.tex
+DEBUG: @chapter: arg 1 = [Length scale of and effect of rotation on very large s
+cale motions]
+DEBUG: @chapter: arg 2 = [{\hyphenpenalty =10000\exhyphenpenalty =10000\relax Le
+ngth scale of and effect of rotation on very large scale motions}]
+CHAPTER 2.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 14.4002pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00015pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.00012pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 14.39977pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99985pt on input line 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.99988pt on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 6.
+
+Package natbib Warning: Citation `hussain_1986_jfm' on page 4 undefined on input
+ line 9.
+
+
+Package natbib Warning: Citation `lewalle_flowTurbCom_00' on page 4 undefined on
+ input line 9.
+
+
+Package natbib Warning: Citation `Fiedler_PAeroSci_1988' on page 4 undefined on 
+input line 9.
+
+
+Package natbib Warning: Citation `Chinthaka_blm_2017' on page 4 undefined on inp
+ut line 9.
+
+
+Package natbib Warning: Citation `kerherv_roux_etfs_2017' on page 4 undefined on
+ input line 9.
+
+
+Package natbib Warning: Citation `guala_adrian_jfm2006' on page 4 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `kim_adrian_pof99' on page 4 undefined on input
+ line 9.
+
+
+Package natbib Warning: Citation `monty_jfm_07' on page 4 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `guala_adrian_jfm2006' on page 4 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `monty_jfm_07' on page 4 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `lee_sung_jfm_14' on page 4 undefined on input 
+line 9.
+
+
+Package natbib Warning: Citation `fang2015blm' on page 4 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `hutchins_marusic_jfm2007' on page 4 undefined 
+on input line 9.
+
+
+Package natbib Warning: Citation `kim_adrian_pof99' on page 4 undefined on input
+ line 9.
+
+
+Package natbib Warning: Citation `guala_adrian_jfm2006' on page 4 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `hutchins_marusic_jfm2007' on page 4 undefined 
+on input line 9.
+
+
+Package natbib Warning: Citation `monty_jfm_07' on page 4 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `fang2015blm' on page 4 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `lee_sung_jfm_14' on page 4 undefined on input 
+line 9.
+
+
+Package natbib Warning: Citation `Lee_sung_jfm11' on page 4 undefined on input l
+ine 9.
+
+
+Package natbib Warning: Citation `baltzer_jfm_13' on page 4 undefined on input l
+ine 9.
+
+
+Package natbib Warning: Citation `chung_jfm_10_large' on page 4 undefined on inp
+ut line 9.
+
+
+Package natbib Warning: Citation `monty_jfm_07' on page 4 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `hutchins_marusic_jfm2007' on page 4 undefined 
+on input line 9.
+
+
+Package natbib Warning: Citation `guala_adrian_jfm2006' on page 4 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `monty_jfm_07' on page 4 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `guala_adrian_jfm2006' on page 4 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `ganapathi_jfm_2012_modulation' on page 4 undef
+ined on input line 9.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4
+
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[5]
+
+Package natbib Warning: Citation `esau_jot_2002' on page 6 undefined on input li
+ne 12.
+
+
+Package natbib Warning: Citation `Lee_sung_jfm11' on page 6 undefined on input l
+ine 16.
+
+
+Package natbib Warning: Citation `baltzer_jfm_13' on page 6 undefined on input l
+ine 16.
+
+
+Package natbib Warning: Citation `lee_sung_jfm_14' on page 6 undefined on input 
+line 16.
+
+
+Package natbib Warning: Citation `Lee_sung_jfm11' on page 6 undefined on input l
+ine 16.
+
+
+Package natbib Warning: Citation `lee_sung_jfm_14' on page 6 undefined on input 
+line 16.
+
+
+Package natbib Warning: Citation `lee_sung_jfm_14' on page 6 undefined on input 
+line 16.
+
+
+Package natbib Warning: Citation `fang2015blm' on page 6 undefined on input line
+ 16.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[6]
+
+Package natbib Warning: Citation `stoll_wrr_2006' on page 7 undefined on input l
+ine 23.
+
+
+Package natbib Warning: Citation `stoll_blm_2008' on page 7 undefined on input l
+ine 23.
+
+
+Package natbib Warning: Citation `stoll_wrr_2006' on page 7 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `stoll_blm_2006' on page 7 undefined on input l
+ine 28.
+
+(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
+oman8-regular.luc)(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/gen
+eric/fonts/otl/lmroman5-regular.luc)
+
+Package natbib Warning: Citation `stoll_blm_2006' on page 7 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `stoll_jas_2009' on page 7 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `bailey_blm_2013' on page 7 undefined on input 
+line 32.
+
+
+Package natbib Warning: Citation `miller_blm_2013' on page 7 undefined on input 
+line 32.
+
+
+Package natbib Warning: Citation `bailey_ae_2014' on page 7 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `bailey_jfm_2016' on page 7 undefined on input 
+line 32.
+
+
+Package natbib Warning: Citation `stoll_wrr_2006' on page 7 undefined on input l
+ine 32.
+
+
+Overfull \vbox (7.40219pt too high) has occurred while \output is active []
+
+
+[7](load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/
+lmroman9-regular.luc)(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/
+generic/fonts/otl/lmroman7-regular.luc)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.00018pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00014pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.0001pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99982pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99986pt on input line 36.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.9999pt on input line 36.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 36.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 36.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 36.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 36.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 36.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 36.
+
+
+Package natbib Warning: Citation `andren_brown_qjrm_94' on page 8 undefined on i
+nput line 40.
+
+
+Package natbib Warning: Citation `andren_brown_qjrm_94' on page 8 undefined on i
+nput line 40.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[8]
+
+Package natbib Warning: Citation `andren_brown_qjrm_94' on page 9 undefined on i
+nput line 46.
+
+
+Package natbib Warning: Citation `cuxart_blm_2006' on page 9 undefined on input 
+line 46.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[9]
+
+Package natbib Warning: Citation `book-garrat-blm' on page 10 undefined on input
+ line 59.
+
+
+Package natbib Warning: Citation `book-garrat-blm' on page 10 undefined on input
+ line 59.
+
+
+Package natbib Warning: Citation `andren_brown_qjrm_94' on page 10 undefined on 
+input line 59.
+
+
+Package natbib Warning: Citation `book-garrat-blm' on page 10 undefined on input
+ line 61.
+
+
+Package natbib Warning: Citation `stoll_blm_2006' on page 10 undefined on input 
+line 61.
+
+
+Package natbib Warning: Citation `stoll_blm_2006' on page 10 undefined on input 
+line 61.
+
+
+Package natbib Warning: Citation `Bouzeid_pof_2005' on page 10 undefined on inpu
+t line 61.
+
+
+Package natbib Warning: Citation `andren_brown_qjrm_94' on page 10 undefined on 
+input line 61.
+
+
+Overfull \hbox (6.64063pt too wide) in paragraph at lines 61--62
+\TU/lmr/m/n/10.95 against nondi-men-sional height is shown in Fig. 2.1[](b), wh
+ere, $\TU/latinmodern-math.otf(1)/m/n/10.95 𝑢[] = −([])[]$\TU/lmr/m/n/10.9
+5 .
+ []
+
+
+Underfull \vbox (badness 6995) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[10]
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[11]
+
+Package natbib Warning: Citation `traumner_blm_2015' on page 12 undefined on inp
+ut line 97.
+
+
+Package natbib Warning: Citation `guala_adrian_jfm2006' on page 12 undefined on 
+input line 109.
+
+
+Package natbib Warning: Citation `fang2015blm' on page 12 undefined on input lin
+e 109.
+
+
+Package natbib Warning: Citation `perry_chng_jfm_86' on page 12 undefined on inp
+ut line 109.
+
+
+Package natbib Warning: Citation `saddoughi1994' on page 12 undefined on input l
+ine 109.
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[13]
+
+Package natbib Warning: Citation `hutchins_marusic_jfm2007' on page 14 undefined
+ on input line 114.
+
+
+Package natbib Warning: Citation `dennis_nickels_jfm2011' on page 14 undefined o
+n input line 114.
+
+
+Overfull \hbox (22.27116pt too wide) in paragraph at lines 114--115
+[]\TU/latinmodern-math.otf(1)/m/n/10.95 (𝑢[]𝑢[])[] + (𝑢[]𝑢[])[])$\T
+U/lmr/m/n/10.95 , where $\TU/latinmodern-math.otf(1)/m/n/10.95 𝑢[]𝑢[] = (
+𝑢[] − [][])(𝑢[] − [][])$\TU/lmr/m/n/10.95 , and $\TU/latinmodern-math
+.otf(1)/m/n/10.95 𝑢[]𝑢[] = (𝑢[] − [][])(𝑢[] −
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[14]
+
+Package natbib Warning: Citation `book_comp_vision_davies' on page 15 undefined 
+on input line 123.
+
+
+Package natbib Warning: Citation `book_intro_dimg_proc_pratt' on page 15 undefin
+ed on input line 123.
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[15]
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 127.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.40219pt too high) has occurred while \output is active []
+
+
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[18]
+
+Package natbib Warning: Citation `de_silva_hutchins_jfm_2016' on page 19 undefin
+ed on input line 161.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[19]
+No file chap1.bbl.
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[20]
+<chap1Img/Cu_CV_combined-eps-converted-to.pdf, id=114, 189.70876pt x 165.61874pt
+>
+File: chap1Img/Cu_CV_combined-eps-converted-to.pdf Graphic file (type pdf)
+<use chap1Img/Cu_CV_combined-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/Cu_CV_combined-eps-converted-to.pdf  used on i
+nput line 218.
+(luatex.def)             Requested size: 166.22342pt x 144.54707pt.
+(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
+oman8-bold.luc)(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generi
+c/fonts/otl/lmroman5-bold.luc)
+<chap1Img/combined_phiM-eps-converted-to.pdf, id=115, 184.69pt x 164.615pt>
+File: chap1Img/combined_phiM-eps-converted-to.pdf Graphic file (type pdf)
+<use chap1Img/combined_phiM-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/combined_phiM-eps-converted-to.pdf  used on in
+put line 226.
+(luatex.def)             Requested size: 166.22226pt x 144.54263pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--232
+
+ []
+
+<chap1Img/totalVerticalStress_uw_combined-eps-converted-to.pdf, id=116, 190.7125
+pt x 162.6075pt>
+File: chap1Img/totalVerticalStress_uw_combined-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use chap1Img/totalVerticalStress_uw_combined-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/totalVerticalStress_uw_combined-eps-converted-
+to.pdf  used on input line 241.
+(luatex.def)             Requested size: 166.22699pt x 144.5515pt.
+<chap1Img/totalVerticalStress_vw_combined-eps-converted-to.pdf, id=117, 190.7125
+pt x 162.6075pt>
+File: chap1Img/totalVerticalStress_vw_combined-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use chap1Img/totalVerticalStress_vw_combined-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/totalVerticalStress_vw_combined-eps-converted-
+to.pdf  used on input line 252.
+(luatex.def)             Requested size: 166.22699pt x 144.5515pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--260
+
+ []
+
+<chap1Img/rossbyNo-eps-converted-to.pdf, id=118, 197.73875pt x 160.6pt>
+File: chap1Img/rossbyNo-eps-converted-to.pdf Graphic file (type pdf)
+<use chap1Img/rossbyNo-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/rossbyNo-eps-converted-to.pdf  used on input l
+ine 267.
+(luatex.def)             Requested size: 166.22311pt x 144.54355pt.
+<chap1Img/corr3d-with-midBL-chnl.jpg, id=119, 436.63126pt x 364.36125pt>
+File: chap1Img/corr3d-with-midBL-chnl.jpg Graphic file (type jpg)
+<use chap1Img/corr3d-with-midBL-chnl.jpg>
+Package luatex.def Info: chap1Img/corr3d-with-midBL-chnl.jpg  used on input line
+ 281.
+(luatex.def)             Requested size: 216.80937pt x 180.6735pt.
+
+Overfull \hbox (4.3338pt too wide) in paragraph at lines 283--284
+[][] 
+ []
+
+<chap1Img/corr2d_z_delta_0d47_chnl-eps-converted-to.pdf, id=120, 189.70876pt x 1
+64.615pt>
+File: chap1Img/corr2d_z_delta_0d47_chnl-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use chap1Img/corr2d_z_delta_0d47_chnl-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/corr2d_z_delta_0d47_chnl-eps-converted-to.pdf 
+ used on input line 288.
+(luatex.def)             Requested size: 166.22342pt x 144.54263pt.
+<chap1Img/corr3d-with-midBL-ug10.jpg, id=121, 436.63126pt x 364.36125pt>
+File: chap1Img/corr3d-with-midBL-ug10.jpg Graphic file (type jpg)
+<use chap1Img/corr3d-with-midBL-ug10.jpg>
+Package luatex.def Info: chap1Img/corr3d-with-midBL-ug10.jpg  used on input line
+ 296.
+(luatex.def)             Requested size: 216.80937pt x 180.6735pt.
+
+Overfull \hbox (4.3338pt too wide) in paragraph at lines 298--299
+[][] 
+ []
+
+<chap1Img/corr2d_z_delta_0d47_ek10-eps-converted-to.pdf, id=122, 189.70876pt x 1
+61.60374pt>
+File: chap1Img/corr2d_z_delta_0d47_ek10-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use chap1Img/corr2d_z_delta_0d47_ek10-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/corr2d_z_delta_0d47_ek10-eps-converted-to.pdf 
+ used on input line 303.
+(luatex.def)             Requested size: 166.22342pt x 144.5469pt.
+<chap1Img/corr3d-with-midBL-ug02.jpg, id=123, 436.63126pt x 364.36125pt>
+File: chap1Img/corr3d-with-midBL-ug02.jpg Graphic file (type jpg)
+<use chap1Img/corr3d-with-midBL-ug02.jpg>
+Package luatex.def Info: chap1Img/corr3d-with-midBL-ug02.jpg  used on input line
+ 311.
+(luatex.def)             Requested size: 216.80937pt x 180.6735pt.
+
+Overfull \hbox (4.3338pt too wide) in paragraph at lines 313--314
+[][] 
+ []
+
+<chap1Img/corr2d_z_delta_0d47_ek02-eps-converted-to.pdf, id=124, 189.70876pt x 1
+61.60374pt>
+File: chap1Img/corr2d_z_delta_0d47_ek02-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use chap1Img/corr2d_z_delta_0d47_ek02-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/corr2d_z_delta_0d47_ek02-eps-converted-to.pdf 
+ used on input line 318.
+(luatex.def)             Requested size: 166.22342pt x 144.5469pt.
+<chap1Img/premult_u_spec_stream-wise-frame_chnl-eps-converted-to.pdf, id=125, 19
+0.7125pt x 165.61874pt>
+File: chap1Img/premult_u_spec_stream-wise-frame_chnl-eps-converted-to.pdf Graphi
+c file (type pdf)
+<use chap1Img/premult_u_spec_stream-wise-frame_chnl-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/premult_u_spec_stream-wise-frame_chnl-eps-conv
+erted-to.pdf  used on input line 333.
+(luatex.def)             Requested size: 166.22699pt x 144.54707pt.
+<chap1Img/premult_v_spec_span-wise-frame_chnl-eps-converted-to.pdf, id=126, 190.
+7125pt x 166.6225pt>
+File: chap1Img/premult_v_spec_span-wise-frame_chnl-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use chap1Img/premult_v_spec_span-wise-frame_chnl-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/premult_v_spec_span-wise-frame_chnl-eps-conver
+ted-to.pdf  used on input line 340.
+(luatex.def)             Requested size: 166.22699pt x 144.54852pt.
+<chap1Img/premult_u_spec_stream-wise-frame_ug10-eps-converted-to.pdf, id=127, 19
+0.7125pt x 166.6225pt>
+File: chap1Img/premult_u_spec_stream-wise-frame_ug10-eps-converted-to.pdf Graphi
+c file (type pdf)
+<use chap1Img/premult_u_spec_stream-wise-frame_ug10-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/premult_u_spec_stream-wise-frame_ug10-eps-conv
+erted-to.pdf  used on input line 348.
+(luatex.def)             Requested size: 166.22699pt x 144.54852pt.
+<chap1Img/premult_v_spec_span-wise-frame_ug10-eps-converted-to.pdf, id=128, 190.
+7125pt x 166.6225pt>
+File: chap1Img/premult_v_spec_span-wise-frame_ug10-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use chap1Img/premult_v_spec_span-wise-frame_ug10-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/premult_v_spec_span-wise-frame_ug10-eps-conver
+ted-to.pdf  used on input line 355.
+(luatex.def)             Requested size: 166.22699pt x 144.54852pt.
+<chap1Img/premult_u_spec_stream-wise-frame_ug2-eps-converted-to.pdf, id=129, 190
+.7125pt x 166.6225pt>
+File: chap1Img/premult_u_spec_stream-wise-frame_ug2-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use chap1Img/premult_u_spec_stream-wise-frame_ug2-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/premult_u_spec_stream-wise-frame_ug2-eps-conve
+rted-to.pdf  used on input line 363.
+(luatex.def)             Requested size: 166.22699pt x 144.54852pt.
+<chap1Img/premult_v_spec_span-wise-frame_ug2-eps-converted-to.pdf, id=130, 190.7
+125pt x 166.6225pt>
+File: chap1Img/premult_v_spec_span-wise-frame_ug2-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use chap1Img/premult_v_spec_span-wise-frame_ug2-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/premult_v_spec_span-wise-frame_ug2-eps-convert
+ed-to.pdf  used on input line 370.
+(luatex.def)             Requested size: 166.22699pt x 144.54852pt.
+Missing character: There is no ⭒ (U+2B52) in font [latinmodern-math.otf]:mode=
+base;script=math;language=DFLT;!
+Missing character: There is no ⭒ (U+2B52) in font [latinmodern-math.otf]:mode=
+base;script=math;language=DFLT;!
+Missing character: There is no ▿ (U+25BF) in font [latinmodern-math.otf]:mode=
+base;script=math;language=DFLT;!
+Missing character: There is no ▿ (U+25BF) in font [latinmodern-math.otf]:mode=
+base;script=math;language=DFLT;!
+<chap1Img/chnl_bin_lowMom-eps-converted-to.pdf, id=131, 193.72375pt x 140.525pt>
+
+File: chap1Img/chnl_bin_lowMom-eps-converted-to.pdf Graphic file (type pdf)
+<use chap1Img/chnl_bin_lowMom-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/chnl_bin_lowMom-eps-converted-to.pdf  used on 
+input line 385.
+(luatex.def)             Requested size: 166.22375pt x 144.54723pt.
+<chap1Img/cropped-eps-converted-to.pdf, id=132, 682.55pt x 257.96375pt>
+File: chap1Img/cropped-eps-converted-to.pdf Graphic file (type pdf)
+<use chap1Img/cropped-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/cropped-eps-converted-to.pdf  used on input li
+ne 394.
+(luatex.def)             Requested size: 166.22118pt x 148.15874pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--399
+
+ []
+
+<chap1Img/struclen_cdf_chnl-eps-converted-to.pdf, id=133, 189.70876pt x 161.6037
+4pt>
+File: chap1Img/struclen_cdf_chnl-eps-converted-to.pdf Graphic file (type pdf)
+<use chap1Img/struclen_cdf_chnl-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/struclen_cdf_chnl-eps-converted-to.pdf  used o
+n input line 408.
+(luatex.def)             Requested size: 166.22342pt x 144.5469pt.
+<chap1Img/flux_area_frac_ratio_all_band-eps-converted-to.pdf, id=134, 196.735pt 
+x 166.6225pt>
+File: chap1Img/flux_area_frac_ratio_all_band-eps-converted-to.pdf Graphic file (
+type pdf)
+<use chap1Img/flux_area_frac_ratio_all_band-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/flux_area_frac_ratio_all_band-eps-converted-to
+.pdf  used on input line 415.
+(luatex.def)             Requested size: 166.21986pt x 148.88594pt.
+<chap1Img/struclen_cdf_ek10-eps-converted-to.pdf, id=135, 189.70876pt x 161.6037
+4pt>
+File: chap1Img/struclen_cdf_ek10-eps-converted-to.pdf Graphic file (type pdf)
+<use chap1Img/struclen_cdf_ek10-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/struclen_cdf_ek10-eps-converted-to.pdf  used o
+n input line 423.
+(luatex.def)             Requested size: 166.22342pt x 144.5469pt.
+<chap1Img/avg_majorAxisLength_all_band-eps-converted-to.pdf, id=136, 195.73125pt
+ x 165.61874pt>
+File: chap1Img/avg_majorAxisLength_all_band-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use chap1Img/avg_majorAxisLength_all_band-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/avg_majorAxisLength_all_band-eps-converted-to.
+pdf  used on input line 430.
+(luatex.def)             Requested size: 166.22897pt x 148.88364pt.
+<chap1Img/struclen_cdf_ek02-eps-converted-to.pdf, id=137, 189.70876pt x 161.6037
+4pt>
+File: chap1Img/struclen_cdf_ek02-eps-converted-to.pdf Graphic file (type pdf)
+<use chap1Img/struclen_cdf_ek02-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/struclen_cdf_ek02-eps-converted-to.pdf  used o
+n input line 438.
+(luatex.def)             Requested size: 166.22342pt x 144.5469pt.
+<chap1Img/avg_minorAxisLength_all_band-eps-converted-to.pdf, id=138, 196.735pt x
+ 165.61874pt>
+File: chap1Img/avg_minorAxisLength_all_band-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use chap1Img/avg_minorAxisLength_all_band-eps-converted-to.pdf>
+Package luatex.def Info: chap1Img/avg_minorAxisLength_all_band-eps-converted-to.
+pdf  used on input line 445.
+(luatex.def)             Requested size: 166.21986pt x 148.88364pt.
+<chap1Img/vlsm_chnl.pdf, id=139, 325.215pt x 216.81pt>
+File: chap1Img/vlsm_chnl.pdf Graphic file (type pdf)
+<use chap1Img/vlsm_chnl.pdf>
+Package luatex.def Info: chap1Img/vlsm_chnl.pdf  used on input line 460.
+(luatex.def)             Requested size: 208.86635pt x 144.54735pt.
+<chap1Img/vlsm_chnl_topView.pdf, id=140, 325.215pt x 216.81pt>
+File: chap1Img/vlsm_chnl_topView.pdf Graphic file (type pdf)
+<use chap1Img/vlsm_chnl_topView.pdf>
+Package luatex.def Info: chap1Img/vlsm_chnl_topView.pdf  used on input line 467.
+
+(luatex.def)             Requested size: 166.22467pt x 144.54735pt.
+<chap1Img/vlsm_ek10.pdf, id=141, 325.215pt x 216.81pt>
+File: chap1Img/vlsm_ek10.pdf Graphic file (type pdf)
+<use chap1Img/vlsm_ek10.pdf>
+Package luatex.def Info: chap1Img/vlsm_ek10.pdf  used on input line 475.
+(luatex.def)             Requested size: 208.86635pt x 144.54735pt.
+<chap1Img/vlsm_ek10_topView.pdf, id=142, 325.215pt x 216.81pt>
+File: chap1Img/vlsm_ek10_topView.pdf Graphic file (type pdf)
+<use chap1Img/vlsm_ek10_topView.pdf>
+Package luatex.def Info: chap1Img/vlsm_ek10_topView.pdf  used on input line 482.
+
+(luatex.def)             Requested size: 166.22467pt x 144.54735pt.
+<chap1Img/vlsm_ek02.pdf, id=143, 325.215pt x 216.81pt>
+File: chap1Img/vlsm_ek02.pdf Graphic file (type pdf)
+<use chap1Img/vlsm_ek02.pdf>
+Package luatex.def Info: chap1Img/vlsm_ek02.pdf  used on input line 490.
+(luatex.def)             Requested size: 208.86635pt x 144.54735pt.
+<chap1Img/vlsm_ek02_topView.pdf, id=144, 325.215pt x 216.81pt>
+File: chap1Img/vlsm_ek02_topView.pdf Graphic file (type pdf)
+<use chap1Img/vlsm_ek02_topView.pdf>
+Package luatex.def Info: chap1Img/vlsm_ek02_topView.pdf  used on input line 497.
+
+(luatex.def)             Requested size: 166.22467pt x 144.54735pt.
+)
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[21
+
+<./chap1Img/Cu_CV_combined-eps-converted-to.pdf><./chap1Img/combined_phiM-eps-co
+nverted-to.pdf><./chap1Img/totalVerticalStress_uw_combined-eps-converted-to.pdf>
+<./chap1Img/totalVerticalStress_vw_combined-eps-converted-to.pdf>]
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[22<./chap1Img/rossbyNo-eps-converted-to.pdf>]
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[23<./chap1Img/corr3d-with-midBL-chnl.jpg><./chap1Img/corr2d_z_delta_0d47_chnl-e
+ps-converted-to.pdf><./chap1Img/corr3d-with-midBL-ug10.jpg><./chap1Img/corr2d_z_
+delta_0d47_ek10-eps-converted-to.pdf><./chap1Img/corr3d-with-midBL-ug02.jpg><./c
+hap1Img/corr2d_z_delta_0d47_ek02-eps-converted-to.pdf>]
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[24<./chap1Img/premult_u_spec_stream-wise-frame_chnl-eps-converted-to.pdf><./cha
+p1Img/premult_v_spec_span-wise-frame_chnl-eps-converted-to.pdf><./chap1Img/premu
+lt_u_spec_stream-wise-frame_ug10-eps-converted-to.pdf><./chap1Img/premult_v_spec
+_span-wise-frame_ug10-eps-converted-to.pdf><./chap1Img/premult_u_spec_stream-wis
+e-frame_ug2-eps-converted-to.pdf><./chap1Img/premult_v_spec_span-wise-frame_ug2-
+eps-converted-to.pdf>]
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[25<./chap1Img/chnl_bin_lowMom-eps-converted-to.pdf><./chap1Img/cropped-eps-conv
+erted-to.pdf>]
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[26<./chap1Img/struclen_cdf_chnl-eps-converted-to.pdf><./chap1Img/flux_area_frac
+_ratio_all_band-eps-converted-to.pdf><./chap1Img/struclen_cdf_ek10-eps-converted
+-to.pdf><./chap1Img/avg_majorAxisLength_all_band-eps-converted-to.pdf><./chap1Im
+g/struclen_cdf_ek02-eps-converted-to.pdf><./chap1Img/avg_minorAxisLength_all_ban
+d-eps-converted-to.pdf>]
+Overfull \vbox (7.40219pt too high) has occurred while \output is active []
+
+
+[27<./chap1Img/vlsm_chnl.pdf><./chap1Img/vlsm_chnl_topView.pdf><./chap1Img/vlsm_
+ek10.pdf><./chap1Img/vlsm_ek10_topView.pdf><./chap1Img/vlsm_ek02.pdf><./chap1Img
+/vlsm_ek02_topView.pdf>]
+DEBUG: @chapter: arg 1 = [Modulation by very large scales and scale-scale energy
+ transfer to and from large-scale motion]
+DEBUG: @chapter: arg 2 = [{\hyphenpenalty =10000\exhyphenpenalty =10000\relax Mo
+dulation by very large scales and scale-scale energy transfer to and from large-
+scale motion}]
+CHAPTER 3.
+(./chap2.tex
+DEBUG: @chapter: arg 1 = [Modulation by very large scales and scale-scale energy
+ transfer to and from large-scale motion]
+DEBUG: @chapter: arg 2 = [{\hyphenpenalty =10000\exhyphenpenalty =10000\relax Mo
+dulation by very large scales and scale-scale energy transfer to and from large-
+scale motion}]
+[28
+
+
+]
+CHAPTER 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[32]
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[33]
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[34]
+Title Error: (72.20146pt too wide)
+Page 35, Title="Modulation of Small Scale Fluctuations by VLSMs"
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[35]
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[36]
+Overfull \vbox (7.40219pt too high) has occurred while \output is active []
+
+
+[37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[38]
+Title Error: (152.10698pt too wide)
+Page 39, Title="Analysis of Interscale Energy Transfer in the Wavelet Domain"
+
+
+Package natbib Warning: Citation `nickels_marusic_jfm_2001' on page 39 undefined
+ on input line 93.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.2927pt too high) has occurred while \output is active []
+
+
+[39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[40]
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[41]
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[42]
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[43]
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[45]
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[48] (./sample-thesis-0.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.41315pt too high) has occurred while \output is active []
+
+
+[49]
+
+! LaTeX Error: \newblock undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{thebibliography}{77}
+                             
+? 
+(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono10-regular.luc)
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[50]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[51]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[52]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
+[]\TU/lmr/m/n/10.95 A. Leonard.  En-ergy cas-cade in large-eddy sim-u-la-tions 
+of tur-bu-lent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
+\TU/lmr/m/n/10.95 fluid flows.  \TU/lmr/m/it/10.95 Ad-vances in Geo-physics\TU/
+lmr/m/n/10.95 , 18:237 -- 248, 1975.  ISSN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
+\TU/lmr/m/n/10.95 0065-2687.  doi: http://dx.doi.org/10.1016/S0065-2687(08)6046
+4-1.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
+\TU/lmtt/m/n/10.95 http://www.sciencedirect.com/science/article/pii/S0065268708
+604641\TU/lmr/m/n/10.95 .
+ []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[54]
+Underfull \hbox (badness 3482) in paragraph at lines 409--417
+[]\TU/lmr/m/n/10.95 Tomas W. Muld, Gu-nilla Efraims-son, and Dan S. Hen-ning-so
+n.  Flow struc-
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 409--417
+\TU/lmr/m/n/10.95 tures around a high-speed train ex-tracted us-ing proper or-t
+hog-o-nal de-com-po-si-
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 409--417
+\TU/lmr/m/n/10.95 ISSN 0045-7930.  doi: http://dx.doi.org/10.1016/j.compfluid.2
+011.12.012.  URL
+ []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[55]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[56])
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[57](load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl
+/lmroman9-bold.luc)(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/ge
+neric/fonts/otl/lmroman7-bold.luc)
+Overfull \hbox (40.36316pt too wide) in paragraph at lines 256--267
+ [][] 
+ []
+
+
+Overfull \hbox (19.97324pt too wide) in paragraph at lines 272--289
+ [][] 
+ []
+
+<chap2Img/modulation_diagram.pdf, id=471, 698.51866pt x 401.75093pt>
+File: chap2Img/modulation_diagram.pdf Graphic file (type pdf)
+<use chap2Img/modulation_diagram.pdf>
+Package luatex.def Info: chap2Img/modulation_diagram.pdf  used on input line 300
+.
+(luatex.def)             Requested size: 433.62068pt x 397.51396pt.
+
+Overfull \hbox (40.46877pt too wide) in paragraph at lines 301--302
+[][] 
+ []
+
+<chap2Img/chnl_u_s2_z_multiple_u_l_0-eps-converted-to.pdf, id=472, 233.87375pt x
+ 237.88875pt>
+File: chap2Img/chnl_u_s2_z_multiple_u_l_0-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use chap2Img/chnl_u_s2_z_multiple_u_l_0-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/chnl_u_s2_z_multiple_u_l_0-eps-converted-to.pd
+f  used on input line 314.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+<chap2Img/ek10_u_s2_z_multiple_u_l_0-eps-converted-to.pdf, id=473, 233.87375pt x
+ 237.88875pt>
+File: chap2Img/ek10_u_s2_z_multiple_u_l_0-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use chap2Img/ek10_u_s2_z_multiple_u_l_0-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/ek10_u_s2_z_multiple_u_l_0-eps-converted-to.pd
+f  used on input line 320.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+<chap2Img/ek02_u_s2_z_multiple_u_l_0-eps-converted-to.pdf, id=474, 233.87375pt x
+ 237.88875pt>
+File: chap2Img/ek02_u_s2_z_multiple_u_l_0-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use chap2Img/ek02_u_s2_z_multiple_u_l_0-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/ek02_u_s2_z_multiple_u_l_0-eps-converted-to.pd
+f  used on input line 326.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+
+Overfull \hbox (2.72598pt too wide) in paragraph at lines 312--331
+ []$[]$$[]$$[]$ 
+ []
+
+<chap2Img/chnl_kx_ul_z-eps-converted-to.pdf, id=475, 233.87375pt x 237.88875pt>
+File: chap2Img/chnl_kx_ul_z-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/chnl_kx_ul_z-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/chnl_kx_ul_z-eps-converted-to.pdf  used on inp
+ut line 341.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+<chap2Img/ek10_kx_ul_z-eps-converted-to.pdf, id=476, 233.87375pt x 237.88875pt>
+File: chap2Img/ek10_kx_ul_z-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/ek10_kx_ul_z-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/ek10_kx_ul_z-eps-converted-to.pdf  used on inp
+ut line 347.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+<chap2Img/ek02_kx_ul_z-eps-converted-to.pdf, id=477, 233.87375pt x 237.88875pt>
+File: chap2Img/ek02_kx_ul_z-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/ek02_kx_ul_z-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/ek02_kx_ul_z-eps-converted-to.pdf  used on inp
+ut line 353.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+<chap2Img/chnl_u_l_uw_std-eps-converted-to.pdf, id=478, 233.87375pt x 237.88875p
+t>
+File: chap2Img/chnl_u_l_uw_std-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/chnl_u_l_uw_std-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/chnl_u_l_uw_std-eps-converted-to.pdf  used on 
+input line 369.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+<chap2Img/ek10_u_l_uw_std-eps-converted-to.pdf, id=479, 233.87375pt x 237.88875p
+t>
+File: chap2Img/ek10_u_l_uw_std-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/ek10_u_l_uw_std-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/ek10_u_l_uw_std-eps-converted-to.pdf  used on 
+input line 375.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+<chap2Img/ek02_u_l_uw_std-eps-converted-to.pdf, id=480, 233.87375pt x 237.88875p
+t>
+File: chap2Img/ek02_u_l_uw_std-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/ek02_u_l_uw_std-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/ek02_u_l_uw_std-eps-converted-to.pdf  used on 
+input line 381.
+(luatex.def)             Requested size: 144.547pt x 144.54565pt.
+<chap2Img/wavelet_n_fourier_spectra_chnl_pre-eps-converted-to.pdf, id=481, 217.8
+1375pt x 217.81375pt>
+File: chap2Img/wavelet_n_fourier_spectra_chnl_pre-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use chap2Img/wavelet_n_fourier_spectra_chnl_pre-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/wavelet_n_fourier_spectra_chnl_pre-eps-convert
+ed-to.pdf  used on input line 397.
+(luatex.def)             Requested size: 137.30978pt x 144.53854pt.
+
+Overfull \hbox (8.67203pt too wide) in paragraph at lines 399--400
+[][] 
+ []
+
+<chap2Img/wavelet_n_fourier_spectra_ek10_pre-eps-converted-to.pdf, id=482, 217.8
+1375pt x 217.81375pt>
+File: chap2Img/wavelet_n_fourier_spectra_ek10_pre-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use chap2Img/wavelet_n_fourier_spectra_ek10_pre-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/wavelet_n_fourier_spectra_ek10_pre-eps-convert
+ed-to.pdf  used on input line 404.
+(luatex.def)             Requested size: 137.30978pt x 144.53854pt.
+
+Overfull \hbox (8.67203pt too wide) in paragraph at lines 406--407
+[][] 
+ []
+
+<chap2Img/wavelet_n_fourier_spectra_ek02_pre-eps-converted-to.pdf, id=483, 217.8
+1375pt x 218.8175pt>
+File: chap2Img/wavelet_n_fourier_spectra_ek02_pre-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use chap2Img/wavelet_n_fourier_spectra_ek02_pre-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/wavelet_n_fourier_spectra_ek02_pre-eps-convert
+ed-to.pdf  used on input line 411.
+(luatex.def)             Requested size: 137.30978pt x 144.54019pt.
+
+Overfull \hbox (8.67203pt too wide) in paragraph at lines 413--414
+[][] 
+ []
+
+(load luc: /home/ahsan/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmr
+oman6-bold.luc)
+<chap2Img/tmn_chnl_fixed_n-eps-converted-to.pdf, id=484, 371.3875pt x 271.0125pt
+>
+File: chap2Img/tmn_chnl_fixed_n-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/tmn_chnl_fixed_n-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/tmn_chnl_fixed_n-eps-converted-to.pdf  used on
+ input line 425.
+(luatex.def)             Requested size: 361.35614pt x 281.86288pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--429
+
+ []
+
+<chap2Img/tmn_ek10_fixed_n-eps-converted-to.pdf, id=485, 372.39125pt x 271.0125p
+t>
+File: chap2Img/tmn_ek10_fixed_n-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/tmn_ek10_fixed_n-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/tmn_ek10_fixed_n-eps-converted-to.pdf  used on
+ input line 436.
+(luatex.def)             Requested size: 361.36113pt x 281.86288pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--440
+
+ []
+
+<chap2Img/tmn_ek02_fixed_n-eps-converted-to.pdf, id=486, 405.515pt x 332.24126pt
+>
+File: chap2Img/tmn_ek02_fixed_n-eps-converted-to.pdf Graphic file (type pdf)
+<use chap2Img/tmn_ek02_fixed_n-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/tmn_ek02_fixed_n-eps-converted-to.pdf  used on
+ input line 448.
+(luatex.def)             Requested size: 361.3589pt x 281.86902pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--452
+
+ []
+
+<chap2Img/tmn_chnl_fixed_n-m_n_equal-eps-converted-to.pdf, id=487, 369.38pt x 27
+8.03876pt>
+File: chap2Img/tmn_chnl_fixed_n-m_n_equal-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use chap2Img/tmn_chnl_fixed_n-m_n_equal-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/tmn_chnl_fixed_n-m_n_equal-eps-converted-to.pd
+f  used on input line 462.
+(luatex.def)             Requested size: 361.35303pt x 281.85634pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--466
+
+ []
+
+<chap2Img/tmn_ek10_fixed_n-m_n_equal-eps-converted-to.pdf, id=488, 369.38pt x 27
+8.03876pt>
+File: chap2Img/tmn_ek10_fixed_n-m_n_equal-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use chap2Img/tmn_ek10_fixed_n-m_n_equal-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/tmn_ek10_fixed_n-m_n_equal-eps-converted-to.pd
+f  used on input line 474.
+(luatex.def)             Requested size: 361.35303pt x 281.85634pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--478
+
+ []
+
+<chap2Img/tmn_ek02_fixed_n-m_n_equal-eps-converted-to.pdf, id=489, 369.38pt x 27
+8.03876pt>
+File: chap2Img/tmn_ek02_fixed_n-m_n_equal-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use chap2Img/tmn_ek02_fixed_n-m_n_equal-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/tmn_ek02_fixed_n-m_n_equal-eps-converted-to.pd
+f  used on input line 486.
+(luatex.def)             Requested size: 361.35303pt x 281.85634pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--490
+
+ []
+
+<chap2Img/pi_chnl_diff_n_by_u3_dz_2-eps-converted-to.pdf, id=490, 229.85875pt x 
+236.885pt>
+File: chap2Img/pi_chnl_diff_n_by_u3_dz_2-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use chap2Img/pi_chnl_diff_n_by_u3_dz_2-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/pi_chnl_diff_n_by_u3_dz_2-eps-converted-to.pdf
+  used on input line 499.
+(luatex.def)             Requested size: 205.98007pt x 171.28358pt.
+<chap2Img/pi_chnl_diff_n_by_u3_dz-eps-converted-to.pdf, id=491, 229.85875pt x 23
+6.885pt>
+File: chap2Img/pi_chnl_diff_n_by_u3_dz-eps-converted-to.pdf Graphic file (type p
+df)
+<use chap2Img/pi_chnl_diff_n_by_u3_dz-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/pi_chnl_diff_n_by_u3_dz-eps-converted-to.pdf  
+used on input line 505.
+(luatex.def)             Requested size: 205.98007pt x 171.28358pt.
+<chap2Img/pi_ek10_diff_n_by_u3_dz_2-eps-converted-to.pdf, id=492, 229.85875pt x 
+203.76125pt>
+File: chap2Img/pi_ek10_diff_n_by_u3_dz_2-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use chap2Img/pi_ek10_diff_n_by_u3_dz_2-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/pi_ek10_diff_n_by_u3_dz_2-eps-converted-to.pdf
+  used on input line 512.
+(luatex.def)             Requested size: 205.98007pt x 171.28575pt.
+<chap2Img/pi_ek10_diff_n_by_u3_dz-eps-converted-to.pdf, id=493, 229.85875pt x 20
+3.76125pt>
+File: chap2Img/pi_ek10_diff_n_by_u3_dz-eps-converted-to.pdf Graphic file (type p
+df)
+<use chap2Img/pi_ek10_diff_n_by_u3_dz-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/pi_ek10_diff_n_by_u3_dz-eps-converted-to.pdf  
+used on input line 518.
+(luatex.def)             Requested size: 205.98007pt x 171.28575pt.
+<chap2Img/pi_ek02_diff_n_by_u3_dz_2-eps-converted-to.pdf, id=494, 229.85875pt x 
+236.885pt>
+File: chap2Img/pi_ek02_diff_n_by_u3_dz_2-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use chap2Img/pi_ek02_diff_n_by_u3_dz_2-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/pi_ek02_diff_n_by_u3_dz_2-eps-converted-to.pdf
+  used on input line 525.
+(luatex.def)             Requested size: 205.98007pt x 171.28358pt.
+<chap2Img/pi_ek02_diff_n_by_u3_dz-eps-converted-to.pdf, id=495, 229.85875pt x 23
+6.885pt>
+File: chap2Img/pi_ek02_diff_n_by_u3_dz-eps-converted-to.pdf Graphic file (type p
+df)
+<use chap2Img/pi_ek02_diff_n_by_u3_dz-eps-converted-to.pdf>
+Package luatex.def Info: chap2Img/pi_ek02_diff_n_by_u3_dz-eps-converted-to.pdf  
+used on input line 531.
+(luatex.def)             Requested size: 205.98007pt x 171.28358pt.
+)
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[58
+
+<./chap2Img/modulation_diagram.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[59<./chap2Img/chnl_u_s2_z_multiple_u_l_0-eps-converted-to.pdf><./chap2Img/ek10_
+u_s2_z_multiple_u_l_0-eps-converted-to.pdf><./chap2Img/ek02_u_s2_z_multiple_u_l_
+0-eps-converted-to.pdf><./chap2Img/chnl_kx_ul_z-eps-converted-to.pdf><./chap2Img
+/ek10_kx_ul_z-eps-converted-to.pdf><./chap2Img/ek02_kx_ul_z-eps-converted-to.pdf
+>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[60<./chap2Img/chnl_u_l_uw_std-eps-converted-to.pdf><./chap2Img/ek10_u_l_uw_std-
+eps-converted-to.pdf><./chap2Img/ek02_u_l_uw_std-eps-converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[61<./chap2Img/wavelet_n_fourier_spectra_chnl_pre-eps-converted-to.pdf><./chap2I
+mg/wavelet_n_fourier_spectra_ek10_pre-eps-converted-to.pdf><./chap2Img/wavelet_n
+_fourier_spectra_ek02_pre-eps-converted-to.pdf><./chap2Img/tmn_chnl_fixed_n-eps-
+converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[62<./chap2Img/tmn_ek10_fixed_n-eps-converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[63<./chap2Img/tmn_ek02_fixed_n-eps-converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[64<./chap2Img/tmn_chnl_fixed_n-m_n_equal-eps-converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[65<./chap2Img/tmn_ek10_fixed_n-m_n_equal-eps-converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[66<./chap2Img/tmn_ek02_fixed_n-m_n_equal-eps-converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[67<./chap2Img/pi_chnl_diff_n_by_u3_dz_2-eps-converted-to.pdf><./chap2Img/pi_chn
+l_diff_n_by_u3_dz-eps-converted-to.pdf><./chap2Img/pi_ek10_diff_n_by_u3_dz_2-eps
+-converted-to.pdf><./chap2Img/pi_ek10_diff_n_by_u3_dz-eps-converted-to.pdf><./ch
+ap2Img/pi_ek02_diff_n_by_u3_dz_2-eps-converted-to.pdf><./chap2Img/pi_ek02_diff_n
+_by_u3_dz-eps-converted-to.pdf>]
+\openout2 = chap3.aux
+ (./chap3.tex
+DEBUG: @chapter: arg 1 = [Time scale of very large scale motions]
+DEBUG: @chapter: arg 2 = [{\hyphenpenalty =10000\exhyphenpenalty =10000\relax Ti
+me scale of very large scale motions}]
+CHAPTER 5.
+
+Package natbib Warning: Citation `falco_pof_77' on page 68 undefined on input li
+ne 7.
+
+
+Package natbib Warning: Citation `hommema_adrian_blm_03' on page 68 undefined on
+ input line 7.
+
+
+Package natbib Warning: Citation `falco_pof_77' on page 68 undefined on input li
+ne 7.
+
+
+Package natbib Warning: Citation `hommema_adrian_blm_03' on page 68 undefined on
+ input line 7.
+
+
+Package natbib Warning: Citation `hussain_1986_jfm' on page 68 undefined on inpu
+t line 7.
+
+
+Package natbib Warning: Citation `li_bouzeid_blm_2011' on page 68 undefined on i
+nput line 7.
+
+
+Package natbib Warning: Citation `muld_compFluids_2012' on page 68 undefined on 
+input line 7.
+
+
+Package natbib Warning: Citation `bagheri_jfm2013' on page 68 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `liu_ExpF_2015' on page 68 undefined on input l
+ine 7.
+
+
+Package natbib Warning: Citation `muld_compFluids_2012' on page 68 undefined on 
+input line 7.
+
+
+Package natbib Warning: Citation `taira_arxiv_2017' on page 68 undefined on inpu
+t line 7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68
+
+
+
+]
+
+Package natbib Warning: Citation `taira_arxiv_2017' on page 69 undefined on inpu
+t line 9.
+
+
+Package natbib Warning: Citation `rowley2004model' on page 69 undefined on input
+ line 9.
+
+
+Package natbib Warning: Citation `armbruster_chaos_94' on page 69 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `Hellstrom_pof_2011' on page 69 undefined on in
+put line 9.
+
+
+Package natbib Warning: Citation `bailey_smits_jfm_2010' on page 69 undefined on
+ input line 9.
+
+
+Package natbib Warning: Citation `stabile2017advances' on page 69 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `li_bouzeid_blm_2011' on page 69 undefined on i
+nput line 9.
+
+
+Package natbib Warning: Citation `muld_compFluids_2012' on page 69 undefined on 
+input line 9.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[69]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[70]
+
+Package natbib Warning: Citation `kutz_book2013' on page 71 undefined on input l
+ine 34.
+
+
+Package natbib Warning: Citation `schmid_jfm2010' on page 71 undefined on input 
+line 39.
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[71]
+
+Package natbib Warning: Citation `schmid_jfm2010' on page 72 undefined on input 
+line 59.
+
+
+Package natbib Warning: Citation `kutz_book2013' on page 72 undefined on input l
+ine 67.
+
+
+Package natbib Warning: Citation `schmid_jfm2010' on page 72 undefined on input 
+line 83.
+
+
+Package natbib Warning: Citation `kutz_book2013' on page 72 undefined on input l
+ine 83.
+
+
+Package natbib Warning: Citation `rowley_mezic_schlatter_jfm_2009' on page 72 un
+defined on input line 83.
+
+
+Package natbib Warning: Citation `tu_thesis' on page 72 undefined on input line 
+83.
+
+
+Package natbib Warning: Citation `kutz_fu_brunton_siam_2016' on page 72 undefine
+d on input line 83.
+
+
+Package natbib Warning: Citation `tu_thesis' on page 72 undefined on input line 
+83.
+
+
+Package natbib Warning: Citation `florimond_mathelin_pof_2015' on page 72 undefi
+ned on input line 83.
+
+
+Package natbib Warning: Citation `hemati_pof_2014' on page 72 undefined on input
+ line 83.
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[73]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[74]
+No file chap3.bbl.
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[75]
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.60011pt on input line 148.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.59988pt on input line 148.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 148.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 148.
+<chap3Img/chnl_dmd_4mode_z_4-eps-converted-to.pdf, id=753, 434.62375pt x 290.083
+76pt>
+File: chap3Img/chnl_dmd_4mode_z_4-eps-converted-to.pdf Graphic file (type pdf)
+<use chap3Img/chnl_dmd_4mode_z_4-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/chnl_dmd_4mode_z_4-eps-converted-to.pdf  used 
+on input line 188.
+(luatex.def)             Requested size: 433.6478pt x 216.8098pt.
+<chap3Img/chnl_dmd_4mode_z_7-eps-converted-to.pdf, id=754, 434.62375pt x 290.083
+76pt>
+File: chap3Img/chnl_dmd_4mode_z_7-eps-converted-to.pdf Graphic file (type pdf)
+<use chap3Img/chnl_dmd_4mode_z_7-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/chnl_dmd_4mode_z_7-eps-converted-to.pdf  used 
+on input line 200.
+(luatex.def)             Requested size: 433.6478pt x 216.8098pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--208
+
+ []
+
+Package epstopdf Info: Source file: <chap3Img/ek02_dmd_mode-1-4_z_24_unstable.ep
+s>
+(epstopdf)                    date: 2017-09-08 15:08:57
+(epstopdf)                    size: 4892694 bytes
+(epstopdf)             Output file: <chap3Img/ek02_dmd_mode-1-4_z_24_unstable-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-09-08 15:23:40
+(epstopdf)                    size: 427164 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/ek02_dmd_mode-1-4_
+z_24_unstable-eps-converted-to.pdf chap3Img/ek02_dmd_mode-1-4_z_24_unstable.eps>
+
+(epstopdf)             \includegraphics on input line 217.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/ek02_dmd_mode-1-4_z_24_unstable-eps-converted-to.pdf, id=755, 372.3912
+5pt x 403.5075pt>
+File: chap3Img/ek02_dmd_mode-1-4_z_24_unstable-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use chap3Img/ek02_dmd_mode-1-4_z_24_unstable-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/ek02_dmd_mode-1-4_z_24_unstable-eps-converted-
+to.pdf  used on input line 217.
+(luatex.def)             Requested size: 433.63336pt x 216.81332pt.
+Package epstopdf Info: Source file: <chap3Img/ek02_dmd_mode-5-8_z_24_unstable.ep
+s>
+(epstopdf)                    date: 2017-09-08 15:08:58
+(epstopdf)                    size: 4892694 bytes
+(epstopdf)             Output file: <chap3Img/ek02_dmd_mode-5-8_z_24_unstable-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-09-08 15:23:41
+(epstopdf)                    size: 437249 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/ek02_dmd_mode-5-8_
+z_24_unstable-eps-converted-to.pdf chap3Img/ek02_dmd_mode-5-8_z_24_unstable.eps>
+
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/ek02_dmd_mode-5-8_z_24_unstable-eps-converted-to.pdf, id=756, 372.3912
+5pt x 403.5075pt>
+File: chap3Img/ek02_dmd_mode-5-8_z_24_unstable-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use chap3Img/ek02_dmd_mode-5-8_z_24_unstable-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/ek02_dmd_mode-5-8_z_24_unstable-eps-converted-
+to.pdf  used on input line 229.
+(luatex.def)             Requested size: 433.63336pt x 216.81332pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--237
+
+ []
+
+Package epstopdf Info: Source file: <chap3Img/chnl_stDist_h_33_mode_3_std_0d50.e
+ps>
+(epstopdf)                    date: 2017-10-03 15:06:59
+(epstopdf)                    size: 21584 bytes
+(epstopdf)             Output file: <chap3Img/chnl_stDist_h_33_mode_3_std_0d50-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-03 18:14:01
+(epstopdf)                    size: 7553 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/chnl_stDist_h_33_m
+ode_3_std_0d50-eps-converted-to.pdf chap3Img/chnl_stDist_h_33_mode_3_std_0d50.ep
+s>
+(epstopdf)             \includegraphics on input line 247.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/chnl_stDist_h_33_mode_3_std_0d50-eps-converted-to.pdf, id=757, 197.738
+75pt x 109.40875pt>
+File: chap3Img/chnl_stDist_h_33_mode_3_std_0d50-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use chap3Img/chnl_stDist_h_33_mode_3_std_0d50-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/chnl_stDist_h_33_mode_3_std_0d50-eps-converted
+-to.pdf  used on input line 247.
+(luatex.def)             Requested size: 216.8133pt x 108.40678pt.
+Package epstopdf Info: Source file: <chap3Img/chnl_stDist_h_33_mode_4_std_0d50.e
+ps>
+(epstopdf)                    date: 2017-10-03 15:06:59
+(epstopdf)                    size: 21528 bytes
+(epstopdf)             Output file: <chap3Img/chnl_stDist_h_33_mode_4_std_0d50-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-03 18:14:06
+(epstopdf)                    size: 7518 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/chnl_stDist_h_33_m
+ode_4_std_0d50-eps-converted-to.pdf chap3Img/chnl_stDist_h_33_mode_4_std_0d50.ep
+s>
+(epstopdf)             \includegraphics on input line 248.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/chnl_stDist_h_33_mode_4_std_0d50-eps-converted-to.pdf, id=758, 197.738
+75pt x 109.40875pt>
+File: chap3Img/chnl_stDist_h_33_mode_4_std_0d50-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use chap3Img/chnl_stDist_h_33_mode_4_std_0d50-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/chnl_stDist_h_33_mode_4_std_0d50-eps-converted
+-to.pdf  used on input line 248.
+(luatex.def)             Requested size: 216.8133pt x 108.40678pt.
+Package epstopdf Info: Source file: <chap3Img/chnl_stDist_h_33_mode_1_std_0d50.e
+ps>
+(epstopdf)                    date: 2017-10-03 15:06:59
+(epstopdf)                    size: 21626 bytes
+(epstopdf)             Output file: <chap3Img/chnl_stDist_h_33_mode_1_std_0d50-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-03 18:10:28
+(epstopdf)                    size: 7553 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/chnl_stDist_h_33_m
+ode_1_std_0d50-eps-converted-to.pdf chap3Img/chnl_stDist_h_33_mode_1_std_0d50.ep
+s>
+(epstopdf)             \includegraphics on input line 249.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/chnl_stDist_h_33_mode_1_std_0d50-eps-converted-to.pdf, id=759, 197.738
+75pt x 109.40875pt>
+File: chap3Img/chnl_stDist_h_33_mode_1_std_0d50-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use chap3Img/chnl_stDist_h_33_mode_1_std_0d50-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/chnl_stDist_h_33_mode_1_std_0d50-eps-converted
+-to.pdf  used on input line 249.
+(luatex.def)             Requested size: 216.8133pt x 108.40678pt.
+Package epstopdf Info: Source file: <chap3Img/chnl_stDist_h_33_mode_2_std_0d50.e
+ps>
+(epstopdf)                    date: 2017-10-03 15:06:59
+(epstopdf)                    size: 21566 bytes
+(epstopdf)             Output file: <chap3Img/chnl_stDist_h_33_mode_2_std_0d50-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-03 18:14:18
+(epstopdf)                    size: 7553 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/chnl_stDist_h_33_m
+ode_2_std_0d50-eps-converted-to.pdf chap3Img/chnl_stDist_h_33_mode_2_std_0d50.ep
+s>
+(epstopdf)             \includegraphics on input line 250.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/chnl_stDist_h_33_mode_2_std_0d50-eps-converted-to.pdf, id=760, 197.738
+75pt x 109.40875pt>
+File: chap3Img/chnl_stDist_h_33_mode_2_std_0d50-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use chap3Img/chnl_stDist_h_33_mode_2_std_0d50-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/chnl_stDist_h_33_mode_2_std_0d50-eps-converted
+-to.pdf  used on input line 250.
+(luatex.def)             Requested size: 216.8133pt x 108.40678pt.
+Package epstopdf Info: Source file: <chap3Img/ek02_stDist_h_24_mode_3_std_0d50.e
+ps>
+(epstopdf)                    date: 2017-10-04 12:51:09
+(epstopdf)                    size: 92237 bytes
+(epstopdf)             Output file: <chap3Img/ek02_stDist_h_24_mode_3_std_0d50-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-04 14:42:40
+(epstopdf)                    size: 8477 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/ek02_stDist_h_24_m
+ode_3_std_0d50-eps-converted-to.pdf chap3Img/ek02_stDist_h_24_mode_3_std_0d50.ep
+s>
+(epstopdf)             \includegraphics on input line 261.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/ek02_stDist_h_24_mode_3_std_0d50-eps-converted-to.pdf, id=761, 186.697
+5pt x 108.405pt>
+File: chap3Img/ek02_stDist_h_24_mode_3_std_0d50-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use chap3Img/ek02_stDist_h_24_mode_3_std_0d50-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/ek02_stDist_h_24_mode_3_std_0d50-eps-converted
+-to.pdf  used on input line 261.
+(luatex.def)             Requested size: 207.42468pt x 108.40968pt.
+Package epstopdf Info: Source file: <chap3Img/ek02_stDist_h_24_mode_4_std_0d50.e
+ps>
+(epstopdf)                    date: 2017-10-04 12:51:10
+(epstopdf)                    size: 92192 bytes
+(epstopdf)             Output file: <chap3Img/ek02_stDist_h_24_mode_4_std_0d50-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-04 14:42:40
+(epstopdf)                    size: 8660 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/ek02_stDist_h_24_m
+ode_4_std_0d50-eps-converted-to.pdf chap3Img/ek02_stDist_h_24_mode_4_std_0d50.ep
+s>
+(epstopdf)             \includegraphics on input line 262.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/ek02_stDist_h_24_mode_4_std_0d50-eps-converted-to.pdf, id=762, 186.697
+5pt x 108.405pt>
+File: chap3Img/ek02_stDist_h_24_mode_4_std_0d50-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use chap3Img/ek02_stDist_h_24_mode_4_std_0d50-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/ek02_stDist_h_24_mode_4_std_0d50-eps-converted
+-to.pdf  used on input line 262.
+(luatex.def)             Requested size: 207.42468pt x 108.40968pt.
+Package epstopdf Info: Source file: <chap3Img/ek02_stDist_h_24_mode_1_std_0d50.e
+ps>
+(epstopdf)                    date: 2017-10-04 12:51:08
+(epstopdf)                    size: 92234 bytes
+(epstopdf)             Output file: <chap3Img/ek02_stDist_h_24_mode_1_std_0d50-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-04 14:42:40
+(epstopdf)                    size: 8486 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/ek02_stDist_h_24_m
+ode_1_std_0d50-eps-converted-to.pdf chap3Img/ek02_stDist_h_24_mode_1_std_0d50.ep
+s>
+(epstopdf)             \includegraphics on input line 263.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/ek02_stDist_h_24_mode_1_std_0d50-eps-converted-to.pdf, id=763, 186.697
+5pt x 108.405pt>
+File: chap3Img/ek02_stDist_h_24_mode_1_std_0d50-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use chap3Img/ek02_stDist_h_24_mode_1_std_0d50-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/ek02_stDist_h_24_mode_1_std_0d50-eps-converted
+-to.pdf  used on input line 263.
+(luatex.def)             Requested size: 207.42468pt x 108.40968pt.
+Package epstopdf Info: Source file: <chap3Img/ek02_stDist_h_24_mode_2_std_0d50.e
+ps>
+(epstopdf)                    date: 2017-10-04 12:51:08
+(epstopdf)                    size: 92249 bytes
+(epstopdf)             Output file: <chap3Img/ek02_stDist_h_24_mode_2_std_0d50-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-04 14:42:40
+(epstopdf)                    size: 8462 bytes
+(epstopdf)             Command: <repstopdf --outfile=chap3Img/ek02_stDist_h_24_m
+ode_2_std_0d50-eps-converted-to.pdf chap3Img/ek02_stDist_h_24_mode_2_std_0d50.ep
+s>
+(epstopdf)             \includegraphics on input line 264.
+Package epstopdf Info: Output file is already uptodate.
+<chap3Img/ek02_stDist_h_24_mode_2_std_0d50-eps-converted-to.pdf, id=764, 186.697
+5pt x 108.405pt>
+File: chap3Img/ek02_stDist_h_24_mode_2_std_0d50-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use chap3Img/ek02_stDist_h_24_mode_2_std_0d50-eps-converted-to.pdf>
+Package luatex.def Info: chap3Img/ek02_stDist_h_24_mode_2_std_0d50-eps-converted
+-to.pdf  used on input line 264.
+(luatex.def)             Requested size: 207.42468pt x 108.40968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--272
+
+ []
+
+)
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[76
+
+<./chap3Img/chnl_dmd_4mode_z_4-eps-converted-to.pdf><./chap3Img/chnl_dmd_4mode_z
+_7-eps-converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[77]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[78<./chap3Img/ek02_dmd_mode-1-4_z_24_unstable-eps-converted-to.pdf><./chap3Img/
+ek02_dmd_mode-5-8_z_24_unstable-eps-converted-to.pdf>]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[79<./chap3Img/chnl_stDist_h_33_mode_3_std_0d50-eps-converted-to.pdf><./chap3Img
+/chnl_stDist_h_33_mode_4_std_0d50-eps-converted-to.pdf><./chap3Img/chnl_stDist_h
+_33_mode_1_std_0d50-eps-converted-to.pdf><./chap3Img/chnl_stDist_h_33_mode_2_std
+_0d50-eps-converted-to.pdf><./chap3Img/ek02_stDist_h_24_mode_3_std_0d50-eps-conv
+erted-to.pdf><./chap3Img/ek02_stDist_h_24_mode_4_std_0d50-eps-converted-to.pdf><
+./chap3Img/ek02_stDist_h_24_mode_1_std_0d50-eps-converted-to.pdf><./chap3Img/ek0
+2_stDist_h_24_mode_2_std_0d50-eps-converted-to.pdf>]
+\openout2 = conclusion.aux
+ (./conclusion.tex
+DEBUG: @chapter: arg 1 = [Conclusions and future directions]
+DEBUG: @chapter: arg 2 = [{\hyphenpenalty =10000\exhyphenpenalty =10000\relax Co
+nclusions and future directions}]
+CHAPTER 6.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[81])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[82]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[83]
+\openout2 = appa.aux
+ (./appa.tex
+DEBUG: @chapter: arg 1 = [Turbulent kinetic energy equation for a horizontally h
+omogeneous, quasi-steady flow]
+DEBUG: @chapter: arg 2 = [{\hyphenpenalty =10000\exhyphenpenalty =10000\relax Tu
+rbulent kinetic energy equation for a horizontally homogeneous, quasi-steady flo
+w}]
+APPENDIX:
+[84
+
+
+
+
+])
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[85] (./sample-thesis-0.bbl
+
+! LaTeX Error: \newblock undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{thebibliography}{77}
+                             
+? 
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[86
+
+]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[87]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[88]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
+[]\TU/lmr/m/n/10.95 A. Leonard.  En-ergy cas-cade in large-eddy sim-u-la-tions 
+of tur-bu-lent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
+\TU/lmr/m/n/10.95 fluid flows.  \TU/lmr/m/it/10.95 Ad-vances in Geo-physics\TU/
+lmr/m/n/10.95 , 18:237 -- 248, 1975.  ISSN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
+\TU/lmr/m/n/10.95 0065-2687.  doi: http://dx.doi.org/10.1016/S0065-2687(08)6046
+4-1.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
+\TU/lmtt/m/n/10.95 http://www.sciencedirect.com/science/article/pii/S0065268708
+604641\TU/lmr/m/n/10.95 .
+ []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[90]
+Underfull \hbox (badness 3482) in paragraph at lines 409--417
+[]\TU/lmr/m/n/10.95 Tomas W. Muld, Gu-nilla Efraims-son, and Dan S. Hen-ning-so
+n.  Flow struc-
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 409--417
+\TU/lmr/m/n/10.95 tures around a high-speed train ex-tracted us-ing proper or-t
+hog-o-nal de-com-po-si-
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 409--417
+\TU/lmr/m/n/10.95 ISSN 0045-7930.  doi: http://dx.doi.org/10.1016/j.compfluid.2
+011.12.012.  URL
+ []
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[91]
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[92])
+
+Package natbib Warning: There were undefined citations.
+
+
+Package natbib Warning: There were multiply defined citations.
+
+
+Overfull \vbox (7.71974pt too high) has occurred while \output is active []
+
+
+[93] (./sample-thesis-0.aux (./intro.aux) (./chap1.aux) (./chap3.aux)
+(./conclusion.aux) (./appa.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 33079 strings out of 494480
+ 125171,953878 words of node,token memory allocated
+ 755 words of node memory still in use:
+   11 hlist, 3 vlist, 3 rule, 1 disc, 2 math, 6 glue, 1 kern, 1 sub_mlist, 8 gly
+ph, 25 attribute, 63 glue_spec, 25 attribute_list, 1 write nodes
+   avail lists: 1:2,2:1850,3:216,4:129,5:524,6:5188,7:2032,8:144,9:833,10:29,11:
+441
+ 34133 multiletter control sequences out of 65536+600000
+ 452 fonts using 68640479 bytes
+ 66i,14n,68p,3971b,442s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf/fonts/opentype
+/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmrom
+anslant10-regular.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmoder
+n-math.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf>
+</usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share
+/texmf/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/ope
+ntype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lm
+roman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.ot
+f></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb>
+Output written on sample-thesis-0.pdf (105 pages, 4921802 bytes).
+
+PDF statistics: 1018 PDF objects out of 1200 (max. 8388607)
+ 690 compressed objects within 7 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+

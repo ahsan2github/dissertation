@@ -1,0 +1,35 @@
+%%% -*-LaTeX-*-
+
+\chapter{Turbulent kinetic energy equation for a horizontally homogeneous, quasi-steady flow}
+\label{app:A_tke}
+
+The momentum equations for the Ekman layer flows can be simplified under the assumption of horizontal homogeneity and quasi-steady condition. If any generic spatially filtered variable $\zeta$ is decomposed into a horizontally  averaged ($\left< \zeta \right>$) and fluctuating components ($\zeta\prime$), the NS equations can be reduced  to the following form:         
+% NS equation after the assumption of horizontal homogeneity 
+% and quasy-steady condition for Ekman layer flows 
+%============================================================================================ 
+\begin{align}
+    u^{\prime}_3\frac{\partial }{\partial x_3}\left < u_i \right > + \left < u_j \right > \frac{\partial}{\partial x_j} u_i^{\prime} + \frac{\partial }{\partial x_j} u_i^{\prime}u_j^{\prime} = -\frac{\partial }{\partial x_i} p^{\prime} - \frac{\partial }{\partial x_i} \left < p \right > - \frac{\partial }{\partial x_3} \left < \tau_{i3}\right > - \frac{\partial }{\partial x_j} \tau_{ij}^{\prime}+f_c\epsilon_{ij3}u_j,
+\end{align}
+\noindent After further simplification, the NS equations in the $x_1$, $x_2$, and $x_3$ directions are as follows for the Ekman layer flow cases $EK10$ and $EK02$:
+
+% ================= NS equations in each directions for Ekman layer ======================
+\begin{align}
+   u^{\prime}_3\frac{\partial \left < u_1 \right >}{\partial x_3} + \left < u_1 \right > \frac{\partial u_1^{\prime}}{\partial x_1} + \left < u_2 \right > \frac{\partial u_1^{\prime} }{\partial x_2} + \frac{\partial }{\partial x_j} u_i^{\prime}u_j^{\prime} = -\frac{\partial p^{\prime}}{\partial x_1}  - \frac{\partial }{\partial x_3} \left < \tau_{13}\right > - \frac{\partial \tau_{ij}^{\prime}}{\partial x_j} +f_cu_2,
+\end{align}
+
+\begin{align}
+   u^{\prime}_3\frac{\partial \left < u_2 \right > }{\partial x_3}+ \left < u_1 \right > \frac{\partial u_2^{\prime}}{\partial x_1}  + \left < u_2 \right > \frac{\partial u_2^{\prime} }{\partial x_2} + \frac{\partial }{\partial x_j} u_i^{\prime}u_j^{\prime} = -\frac{\partial p^{\prime} }{\partial x_2} + f_c U_g - \frac{\partial }{\partial x_3} \left < \tau_{23}\right > - \frac{\partial \tau_{ij}^{\prime}}{\partial x_j} -f_cu_1,
+\end{align}
+
+\begin{align}
+ \left < u_1 \right > \frac{\partial u_3^{\prime}}{\partial x_1}  + \left < u_2 \right > \frac{\partial u_3^{\prime}}{\partial x_2} +\frac{\partial }{\partial x_j} u_i^{\prime}u_j^{\prime} = -\frac{\partial p^{\prime} }{\partial x_3} -\frac{\partial }{\partial x_3} \left < \tau_{33}\right > - \frac{\partial \tau_{ij}^{\prime}}{\partial x_j}.
+ \label{eqn:simplified_ns_ekman}
+\end{align}
+
+The turbulent kinetic energy ($tke$) equation under the assumption of horizontal homogeneity can be derived within the framework of spatial filtered Navier-Stokes equation by multiplying each Eqn.  \ref{eqn:simplified_ns_ekman} by $u_i$. For convenience, the tilde is dropped and all dependent variables will be understood as spatially filtered quantities. With the proposed decomposition and under the assumption that this horizontal averaging over statistically independent frames conforms to Reynold's averaging, the transport equation for the turbulent kinetic energy ($q$) takes the following form:
+\begin{align}
+u_3^\prime u_i^\prime \frac{\partial \left< u_i \right>}{\partial x_3}+[\left< u_j\right>\frac{\partial q}{\partial x_j}+u_j^\prime\frac{\partial q}{\partial x_j}+\frac{\partial }{\partial x_j}(u_i^\prime \tau_{ij}^\prime)]+u_i^\prime\frac{\partial p^\prime}{\partial x_i}+ u_i^\prime \frac{\partial \left < p \right >}{\partial x_i}+u_i^\prime\frac{\partial \left < \tau_{i3} \right >}{\partial x_3}-\tau_{ij}^\prime s_{ij}^\prime =0,
+\label{eqn:tke_horz_avg}
+\end{align}
+\noindent where, $q=\frac{1}{2}u^{\prime}_i u^{\prime}_i$ and $s_{ij}'=\frac{1}{2}(\frac{\partial u_{i}'}{\partial x_j}+\frac{\partial u_{j}'}{\partial x_i})$.
+In Eqn. \ref{eqn:tke_horz_avg} the first term on the left-hand side denotes production of $tke$ by mean shear, the second term captures the spatial re-distribution of $tke$ by the mean flow and turbulence, and the third and fourth terms denote velocity and pressure correlation.  The fifth term stands for redistribution of $tke$ by horizontally averaged subgrid-scale turbulence, and the last term denotes subgrid-scale dissipation by turbulent motions. Although the different terms of this $tke$ transport equation were not directly analyzed in this study, it served as a guidepost for the inter-scale energy transfer analysis. In this study, a scale dependent version of the combined terms ($-\frac{\partial }{\partial x_i}\left< p^\prime u^\prime\right>-u_j^\prime\frac{\partial \left< q\right>}{\partial x_j}-\frac{\partial}{\partial x_j}\left< u_i^\prime\tau_{ij}^\prime \right>+\left< \tau_{ij}^\prime s_{ij}^\prime\right>$) was analyzed via a discrete wavelet framework. 

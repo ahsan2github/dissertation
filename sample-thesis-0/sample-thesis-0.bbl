@@ -1,0 +1,512 @@
+\begin{thebibliography}{77}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Lumely and Yaglom(2001)]{lumely_yaglom_FTC_2001}
+John~L. Lumely and Akiva~M. Yaglom.
+\newblock A century of turbulence.
+\newblock \emph{Flow, Turbulence and Combustion}, 66:\penalty0 241--286, 2001.
+
+\bibitem[Hinze(1975)]{hinze_book_75}
+J~O Hinze.
+\newblock \emph{Turbulence}.
+\newblock McGraw-Hill Inc., 1975.
+
+\bibitem[Tsinober(2001)]{tsinober_book_2001}
+Arkady Tsinober.
+\newblock \emph{An Informal Introduction to Turbulence}.
+\newblock Kluwer Academic Publishers, 2001.
+
+\bibitem[Hussain(1986)]{hussain_1986_jfm}
+A.~K. M.~Fazle Hussain.
+\newblock {Coherent structures and turbulence}.
+\newblock \emph{Journal of Fluid Mechanics}, 173, 1986.
+
+\bibitem[Lewalle et~al.(2000)Lewalle, Delville, and
+  Bonnet]{lewalle_flowTurbCom_00}
+Jacques Lewalle, Jo{\"e}l Delville, and Jean-Paul Bonnet.
+\newblock {Decomposition of mixing layer turbulence into coherent structures
+  and background fluctuations}.
+\newblock \emph{Flow, Turbulence and Combustion}, 64, 2000.
+
+\bibitem[Fiedler(1988)]{Fiedler_PAeroSci_1988}
+H.E. Fiedler.
+\newblock {Coherent structures in turbulent flows}.
+\newblock \emph{Progress in Aerospace Sciences}, 25\penalty0 (3), 1988.
+
+\bibitem[Jacob and Anderson(2017)]{Chinthaka_blm_2017}
+Chinthaka Jacob and William Anderson.
+\newblock Conditionally averaged large-scale motions in the neutral atmospheric
+  boundary layer: insights for aeolian processes.
+\newblock \emph{Boundary-Layer Meteorology}, 162\penalty0 (1):\penalty0 21--41,
+  Jan 2017.
+\newblock ISSN 1573-1472.
+\newblock \doi{10.1007/s10546-016-0183-4}.
+\newblock URL \url{https://doi.org/10.1007/s10546-016-0183-4}.
+
+\bibitem[Kerherv{\'e} et~al.(2017)Kerherv{\'e}, Roux, and
+  Mathis]{kerherv_roux_etfs_2017}
+F.~Kerherv{\'e}, S.~Roux, and R.~Mathis.
+\newblock Combining time-resolved multi-point and spatially-resolved
+  measurements for the recovering of very-large-scale motions in high reynolds
+  number turbulent boundary layer.
+\newblock \emph{Experimental Thermal and Fluid Science}, 82:\penalty0 102--115,
+  2017.
+
+\bibitem[Guala et~al.(2006)Guala, Hommema, and Adrian]{guala_adrian_jfm2006}
+M~Guala, S.~E. Hommema, and R.~J. Adrian.
+\newblock {Large-scale and very-large-sacle motions in turbulent pipe flow}.
+\newblock \emph{Journal of Fluid Mechanics}, 554:\penalty0 521--542, 2006.
+
+\bibitem[Kim and Adrian(1999)]{kim_adrian_pof99}
+K.~C. Kim and R.~J. Adrian.
+\newblock {Very large-scale motion in the outer layer}.
+\newblock \emph{Physics of Fluids}, 11:\penalty0 417--422, 1999.
+\newblock \doi{10.1063/1.869889}.
+
+\bibitem[Monty et~al.(2007)Monty, Stewart, Williams, and Chong]{monty_jfm_07}
+J.~P. Monty, J.~A. Stewart, R.~C. Williams, and M.~S. Chong.
+\newblock {Large-scale features in turbulent pipe and channel flows}.
+\newblock \emph{Journal of Fluid Mechanics}, 589, 2007.
+
+\bibitem[Lee et~al.(2014)Lee, Lee, Choi, and Sung]{lee_sung_jfm_14}
+Jin Lee, Jae~Hwa Lee, Jung-II Choi, and Hyung~Jin Sung.
+\newblock {Spatial organization of large- and very-large-scale motions in a
+  turbulent channel flow}.
+\newblock \emph{Journal of Fluid Mechanics}, 749:\penalty0 818--840, 2014.
+
+\bibitem[Fang and {Port{\'e}-Agel}(2015)]{fang2015blm}
+Jiannong Fang and Fernando {Port{\'e}-Agel}.
+\newblock {Large-eddy simulation of very large-scale motions in the neutrally
+  stratified atmospheric boundary layer}.
+\newblock \emph{Boundary-Layer Meteorology}, 155:\penalty0 397--416, 2015.
+
+\bibitem[Hutchins and Marusic(2007)]{hutchins_marusic_jfm2007}
+N.~Hutchins and Ivan Marusic.
+\newblock {Evidence of very long meandering features in the logarirthmic region
+  of turbulent boundary layers}.
+\newblock \emph{Journal of Fluid Mechanics}, 579:\penalty0 1--28, 2007.
+
+\bibitem[Lee and Sung(2011)]{Lee_sung_jfm11}
+Jae~Hwa Lee and Hyung~Jin Sung.
+\newblock {Very-large-sacle motions in a turbulent boundary layer}.
+\newblock \emph{Journal of Fluid Mechanics}, 673:\penalty0 80--120, 2011.
+
+\bibitem[Baltzer et~al.(2013)Baltzer, Adrian, and Wu]{baltzer_jfm_13}
+J.~R. Baltzer, R.~J. Adrian, and Xiaohua Wu.
+\newblock {Structural organization of large and very large scales in turbulent
+  pipe flow simulation}.
+\newblock \emph{Journal of Fluid Mechanics}, 720, 2013.
+
+\bibitem[Chung and McKeon(2010)]{chung_jfm_10_large}
+D~Chung and B.~J. McKeon.
+\newblock {Large-eddy simulation of large-scale structures in long channel
+  flow}.
+\newblock \emph{Journal of Fluid Mechanics}, 661, 2010.
+
+\bibitem[Ganapathisubramani et~al.(2012)Ganapathisubramani, Hutchins, Monty,
+  Chung, and Marusic]{ganapathi_jfm_2012_modulation}
+B.~Ganapathisubramani, N.~Hutchins, J.~P. Monty, D.~Chung, and I.~Marusic.
+\newblock {Amplitude and frequency modulation in wall turbulence}.
+\newblock \emph{Journal of Fluid Mechanics}, 712, 2012.
+
+\bibitem[Esau(2003)]{esau_jot_2002}
+Igor~N Esau.
+\newblock {The Coriolis effect on the coherent structures in the planetary
+  boundary layers}.
+\newblock \emph{Journal of Turbulence}, 4, 2003.
+
+\bibitem[Stoll and {Port{\'e}-Agel}(2006{\natexlab{a}})]{stoll_wrr_2006}
+Rob Stoll and Fernando {Port{\'e}-Agel}.
+\newblock {Dynamic subgrid-scale models for momentum and scalar fluxes in
+  large-eddy ssimulation of neutrally startified atmospheric boundary layers
+  over heterogeneous terrain}.
+\newblock \emph{Water Resources Research}, 42\penalty0 (1), 2006{\natexlab{a}}.
+
+\bibitem[Stoll and Port{\'e}-Agel(2008)]{stoll_blm_2008}
+Rob Stoll and Fernando Port{\'e}-Agel.
+\newblock Large-eddy simulation of the stable atmospheric boundary layer using
+  dynamic models with different averaging schemes.
+\newblock \emph{Boundary-Layer Meteorology}, 126\penalty0 (1):\penalty0 1--28,
+  2008.
+
+\bibitem[Stoll and {Port{\'e}-Agel}(2006{\natexlab{b}})]{stoll_blm_2006}
+Rob Stoll and Fernando {Port{\'e}-Agel}.
+\newblock {Effect of Roughness on surface boundary conditions for large-eddy
+  simulation}.
+\newblock \emph{Boundary-Layer Meteorology}, 118:\penalty0 169--187,
+  2006{\natexlab{b}}.
+
+\bibitem[Stoll and Porté-Agel(2009)]{stoll_jas_2009}
+Rob Stoll and Fernando Porté-Agel.
+\newblock Surface heterogeneity effects on regional-scale fluxes in stable
+  boundary layers: surface temperature transitions.
+\newblock \emph{Journal of the Atmospheric Sciences}, 66\penalty0 (2):\penalty0
+  412--431, 2009.
+\newblock \doi{10.1175/2008JAS2668.1}.
+
+\bibitem[Bailey and Stoll(2013)]{bailey_blm_2013}
+Brian~N. Bailey and Rob Stoll.
+\newblock Turbulence in sparse, organized vegetative canopies: a large-eddy
+  simulation study.
+\newblock \emph{Boundary-Layer Meteorology}, 147\penalty0 (3):\penalty0
+  369--400, 2013.
+\newblock \doi{10.1007/s10546-012-9796-4}.
+
+\bibitem[Miller and Stoll(2013)]{miller_blm_2013}
+Nathan~E. Miller and Rob Stoll.
+\newblock Surface heterogeneity effects on regional-scale fluxes in the stable
+  boundary layer: aerodynamic roughness length transitions.
+\newblock \emph{Boundary-Layer Meteorology}, 149\penalty0 (2):\penalty0
+  277--301, 2013.
+\newblock \doi{10.1007/s10546-013-9839-5}.
+
+\bibitem[Bailey et~al.(2014)Bailey, Stoll, Pardyjak, and
+  Mahaffee]{bailey_ae_2014}
+Brian~N. Bailey, Rob Stoll, Eric~R. Pardyjak, and Walter~F. Mahaffee.
+\newblock Effect of vegetative canopy architecture on vertical transport of
+  massless particles.
+\newblock \emph{Atmospheric Environment}, 95:\penalty0 480 -- 489, 2014.
+\newblock \doi{https://doi.org/10.1016/j.atmosenv.2014.06.058}.
+
+\bibitem[Bailey and Stoll(2016)]{bailey_jfm_2016}
+Brian~N. Bailey and R.~Stoll.
+\newblock The creation and evolution of coherent structures in plant canopy
+  flows and their role inturbulent transport.
+\newblock \emph{Journal of Fluid Mechanics}, 789:\penalty0 425–460, 2016.
+\newblock \doi{10.1017/jfm.2015.749}.
+
+\bibitem[Andren et~al.(1994)Andren, Brown, Graf, Mason, Moeng, Nieuwstadt, and
+  Schumann]{andren_brown_qjrm_94}
+A.~Andren, A.~R. Brown, J.~Graf, P.~J. Mason, C.H. Moeng, F.~T.~M. Nieuwstadt,
+  and U.~Schumann.
+\newblock {Large-eddy simulation of a neutrally stratified boundary layer: a
+  comparison of four computer codes}.
+\newblock \emph{Quarterly Journal of the Royal Meteorological Society},
+  120:\penalty0 1457--1484, 1994.
+
+\bibitem[Cuxart et~al.(2006)Cuxart, A.A.M., Beare, Bazile, Beljaars, Cheng,
+  Conangla, Ek, Freedman, Hamdi, Kerstein, Kitagawa, Lenderink, Lewellen,
+  Mailhot, Mauritsen, Perov, Schayes, Steeneveld, Svensson, Taylor, Weng,
+  Wunsch, and Xu]{cuxart_blm_2006}
+J.~Cuxart, Holtslag A.A.M., R.J. Beare, E.~Bazile, A.~Beljaars, A.~Cheng,
+  L.~Conangla, M.~Ek, F.~Freedman, R.~Hamdi, A.~Kerstein, H.~Kitagawa,
+  G.~Lenderink, D.~Lewellen, J.~Mailhot, T.~Mauritsen, V.~Perov, G.~Schayes,
+  G-J. Steeneveld, G.~Svensson, P.~Taylor, W.~Weng, S.~Wunsch, and Xu.
+\newblock {Single-column model intercomparison for a stably stratified
+  atmospheric boundary layer}.
+\newblock \emph{Boundary-Layer Meteorology}, 118\penalty0 (2), 2006.
+
+\bibitem[Garrat(1992)]{book-garrat-blm}
+J.~R. Garrat.
+\newblock \emph{{The atmospheric boundary layer}}.
+\newblock Cambridge University Press, 1992.
+
+\bibitem[Bou-Zeid et~al.(2005)Bou-Zeid, Meneveau, and
+  Parlange]{Bouzeid_pof_2005}
+Elie Bou-Zeid, Charles Meneveau, and Marc Parlange.
+\newblock A scale-dependent lagrangian dynamic model for large eddy simulation
+  of complex turbulent flows.
+\newblock \emph{Physics of Fluids}, 17\penalty0 (2):\penalty0 025105, 2005.
+\newblock \doi{10.1063/1.1839152}.
+\newblock URL \url{https://doi.org/10.1063/1.1839152}.
+
+\bibitem[{Tr{\"a}umner} et~al.(2015){Tr{\"a}umner}, Damian, Stawiarski, and
+  Wieser]{traumner_blm_2015}
+K.~{Tr{\"a}umner}, Th. Damian, Ch. Stawiarski, and A.~Wieser.
+\newblock {Turbulent structures and coherence in the atmospheric surface
+  layer}.
+\newblock \emph{Boundary-Layer Meteorology}, 154:\penalty0 1--25, 2015.
+
+\bibitem[Perry et~al.(1986)Perry, Henbest, and Chong]{perry_chng_jfm_86}
+A.~E. Perry, S.~Henbest, and M.~S. Chong.
+\newblock A theoretical and experimental study of wall turbulence.
+\newblock \emph{Journal of Fluid Mechanics}, 165:\penalty0 163--199, 1986.
+
+\bibitem[Saddoughi and Veeravalli(1994)]{saddoughi1994}
+Seyed~G. Saddoughi and Srinivas~V. Veeravalli.
+\newblock Local isotropy in turbulent boundary layers at high reynolds number.
+\newblock \emph{Journal of Fluid Mechanics}, 268:\penalty0 333–372, 1994.
+\newblock \doi{10.1017/S0022112094001370}.
+
+\bibitem[Dennis and Nickels(2011)]{dennis_nickels_jfm2011}
+David J.~C. Dennis and Timothy~B. Nickels.
+\newblock Experimental measurement of large-scale three-dimensional structures
+  in a turbulent boundary layer. part 2. long structures.
+\newblock \emph{Journal of Fluid Mechanics}, 673, 2011.
+
+\bibitem[Davies(2012)]{book_comp_vision_davies}
+E.~R. Davies.
+\newblock \emph{{Computer and machine vision : theory, algorithms,
+  practicalities}}.
+\newblock Elsevier/Academic Press, 2012.
+
+\bibitem[Pratt(2014)]{book_intro_dimg_proc_pratt}
+William~K. Pratt.
+\newblock \emph{{Introduction to digital image processing}}.
+\newblock CRC Press, Taylor \& Francis Group, 2014.
+
+\bibitem[de~Silva et~al.(2016)de~Silva, Hutchins, and
+  Marusic]{de_silva_hutchins_jfm_2016}
+Charitha~M. de~Silva, Nicholas Hutchins, and Ivan Marusic.
+\newblock Uniform momentum zones in turbulent boundary layers.
+\newblock \emph{Journal of Fluid Mechanics}, 786:\penalty0 309--331, 2016.
+
+\bibitem[Balakumar and Adrian(2007)]{balakumar_adrian_ptrs_07}
+B.~J. Balakumar and R.~J. Adrian.
+\newblock Large and very-large-sacle motions in channel and boundary-layer
+  flows.
+\newblock \emph{Philosophical Transactions of the Royal Society A},
+  365:\penalty0 665--681, 2007.
+
+\bibitem[Hill(2002)]{hill_jfm2002}
+Reginald~J. Hill.
+\newblock Exact second-order structure-function relationships.
+\newblock \emph{Journal of Fluid Mechanics}, 468:\penalty0 317--326, 2002.
+
+\bibitem[Marati et~al.(2004)Marati, Casciola, and Piva]{marati_jfm_2004}
+N.~Marati, C.~M. Casciola, and R.~Piva.
+\newblock Energy cascade and spatial fluxes in wall turbulence.
+\newblock \emph{Journal of Fluid Mechanics}, 521:\penalty0 191--215, 2004.
+
+\bibitem[Landahl and Mollo-Christensen(1992)]{landahl_christensen_book_92}
+M.~T. Landahl and E.~Mollo-Christensen.
+\newblock \emph{Turbulence and random processes in fluid mechanics}.
+\newblock Cambridge University Press, 2nd edition, 1992.
+
+\bibitem[Mathis et~al.(2009)Mathis, Hutchins, and Marusic]{MATHIS2009}
+Romain Mathis, Nicholas Hutchins, and Ivan Marusic.
+\newblock Large-scale amplitude modulation of the small-scale structures in
+  turbulent boundary layers.
+\newblock \emph{Journal of Fluid Mechanics}, 628:\penalty0 311–337, 2009.
+\newblock \doi{10.1017/S0022112009006946}.
+
+\bibitem[Bernardini and Pirozzoli(2011)]{Bernardini2011}
+Matteo Bernardini and Sergio Pirozzoli.
+\newblock Inner/outer layer interactions in turbulent boundary layers: A
+  refined measure for the large-scale amplitude modulation mechanism.
+\newblock \emph{Physics of Fluids}, 23\penalty0 (6):\penalty0 061701, 2011.
+\newblock \doi{10.1063/1.3589345}.
+\newblock URL \url{http://dx.doi.org/10.1063/1.3589345}.
+
+\bibitem[Daubechies(1988)]{daubechies88}
+Ingrid Daubechies.
+\newblock Orthonormal bases of compactly supported wavelets.
+\newblock \emph{Communications on Pure and Applied Mathematics}, 71\penalty0
+  (7), 1988.
+
+\bibitem[Burrus et~al.(1998)Burrus, Gopinath, and Guo]{book_burrus_gopi}
+C.~Sidney Burrus, Ramesh~A. Gopinath, and Haitao Guo.
+\newblock \emph{Introduction to Wavelets and Wavelet Transformations A Primer}.
+\newblock Prentice-Hall Inc., 1st edition, 1998.
+
+\bibitem[Gonzalez and Woods(2008)]{dim_gonzalez}
+Rafael~C. Gonzalez and Richard~E. Woods.
+\newblock \emph{Digital Image Processing}.
+\newblock Prentice-Hall Inc., 3rd edition, 2008.
+
+\bibitem[Baraniuk et~al.(2014)Baraniuk, Choi, Neelamani, Ribeiro, Romberg, Guo,
+  Fernandes, Hendricks, Gopinath, Lang, Odegard, Wei, and
+  Jackson]{rice_wavelet_toolbox}
+Richard Baraniuk, Hyeokho Choi, Ramesh Neelamani, Vinay Ribeiro, Justin
+  Romberg, Haitao Guo, Felix Fernandes, Brent Hendricks, Ramesh Gopinath,
+  Markus Lang, Jan~Erik Odegard, Dong Wei, and Josh Jackson.
+\newblock \emph{The Rice Wavelet Toolbox}, 2014.
+\newblock URL \url{http://github.com/ricedsp/rwt}.
+
+\bibitem[Meneveau(1991)]{meneveau_91jfm}
+Charles Meneveau.
+\newblock {Analysis of turbulence in the orthonormal wavelet representation}.
+\newblock \emph{Journal of Fluid Mechanics}, 232:\penalty0 469--520, 1991.
+
+\bibitem[Leonard(1975)]{leonard1975}
+A.~Leonard.
+\newblock Energy cascade in large-eddy simulations of turbulent fluid flows.
+\newblock \emph{Advances in Geophysics}, 18:\penalty0 237 -- 248, 1975.
+\newblock ISSN 0065-2687.
+\newblock \doi{http://dx.doi.org/10.1016/S0065-2687(08)60464-1}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0065268708604641}.
+\newblock Turbulent Diffusion in Environmental Pollution.
+
+\bibitem[Domaradzki et~al.(1994)Domaradzki, H{\"a}rtel, and
+  Kleiser]{domaradzki_pof_1994}
+J.~Andrzej Domaradzki, Wei~LiuCarlos H{\"a}rtel, and Leonard Kleiser.
+\newblock Energy transfer in numerically simulated wall-bounded turbulent
+  flows.
+\newblock \emph{Physics of Fluids}, 6\penalty0 (4), 1994.
+\newblock \doi{10.1063/1.868272}.
+
+\bibitem[DUNN and MORRISON(2003)]{dunn_jfm_2003}
+D.~C. DUNN and J.~F. MORRISON.
+\newblock Anisotropy and energy flux in wall turbulence.
+\newblock \emph{Journal of Fluid Mechanics}, 491:\penalty0 353–378, 2003.
+\newblock \doi{10.1017/S0022112003005548}.
+
+\bibitem[Dunn and Morrison(2005)]{dunn_cf2005}
+David~C. Dunn and Jonathan~F. Morrison.
+\newblock Analysis of the energy budget in turbulent channel flow using
+  orthogonal wavelets.
+\newblock \emph{Computers \& Fluids}, 34\penalty0 (2):\penalty0 199 -- 224,
+  2005.
+\newblock ISSN 0045-7930.
+\newblock \doi{http://dx.doi.org/10.1016/j.compfluid.2004.04.003}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0045793004000787}.
+
+\bibitem[Bourouiba et~al.(2011)Bourouiba, Straub, and
+  Waite]{bourouiba_straub_jfm11}
+L.~Bourouiba, D.~N. Straub, and M.~L. Waite.
+\newblock {Non-local energy transfers in rotating turbulence at intermediate
+  Rossby number}.
+\newblock \emph{Journal of Fluid Mechanics}, 690:\penalty0 1--19, 2011.
+
+\bibitem[Yeung and Zhou(1998)]{yeung_zhou_pof_98}
+P.~K. Yeung and Ye~Zhou.
+\newblock Numerical study of rotating turbulence with external forcing.
+\newblock \emph{Physics of Fluids}, 10\penalty0 (11), 1998.
+
+\bibitem[Hossain(1994)]{hossain_pof_94}
+Murshed Hossain.
+\newblock Reduction in the dimensionality of turbulence due to strong rotation.
+\newblock \emph{Physics of Fluids}, 6\penalty0 (3), 1994.
+
+\bibitem[Hussain(1983)]{hussain_1983_csreality}
+A.~K. M.~F. Hussain.
+\newblock Coherent structures-reality and myth.
+\newblock \emph{The Physics of Fluids}, 26, 1983.
+
+\bibitem[Davidson(2004)]{davidson_turb_book}
+P.~A. Davidson.
+\newblock \emph{Turbulence An Introduction for Scientists and Engineers}.
+\newblock Oxford University Press, 2004.
+
+\bibitem[Falco(1977)]{falco_pof_77}
+R.~E. Falco.
+\newblock Coherent motions in the outer region of turbulent boundary layers.
+\newblock \emph{The Physics of Fluids}, 20, 1977.
+
+\bibitem[Hommema and Adrian(2003)]{hommema_adrian_blm_03}
+Scott~E. Hommema and Ronald~J. Adrian.
+\newblock Packet structure of surface eddies in the atmospheric boundary layer.
+\newblock \emph{Boundary-Layer Meteorology}, 106:\penalty0 147--170, 2003.
+
+\bibitem[Li and Bou-Zeid(2011)]{li_bouzeid_blm_2011}
+Dan Li and Elie Bou-Zeid.
+\newblock Coherent structures and the dissimilarity of turbulent transport of
+  momentum and scalars in the unstable atmospheric surface layer.
+\newblock \emph{Boundary-Layer Meteorology}, 140\penalty0 (2):\penalty0
+  243--262, Aug 2011.
+\newblock ISSN 1573-1472.
+\newblock \doi{10.1007/s10546-011-9613-5}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10546-011-9613-5}.
+
+\bibitem[Muld et~al.(2012)Muld, Efraimsson, and
+  Henningson]{muld_compFluids_2012}
+Tomas~W. Muld, Gunilla Efraimsson, and Dan~S. Henningson.
+\newblock Flow structures around a high-speed train extracted using proper
+  orthogonal decomposition and dynamic mode decomposition.
+\newblock \emph{Computers \& Fluids}, 57:\penalty0 87 -- 97, 2012.
+\newblock ISSN 0045-7930.
+\newblock \doi{http://dx.doi.org/10.1016/j.compfluid.2011.12.012}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0045793011003847}.
+
+\bibitem[Bagheri(2013)]{bagheri_jfm2013}
+Shervin Bagheri.
+\newblock Koopman-mode decomposition of the cylinder wake.
+\newblock \emph{Journal of Fluid Mechanics}, 726, 2013.
+
+\bibitem[Liu and Zhang(2015)]{liu_ExpF_2015}
+Yingzheng Liu and Qingshan Zhang.
+\newblock Dynamic mode decomposition of separated flow over a finite blunt
+  plate: time-resolved particle image velocimetry measurements.
+\newblock \emph{Experiments in Fluids}, 56\penalty0 (7):\penalty0 148, 2015.
+
+\bibitem[Taira et~al.(2017)Taira, Brunton, Dawson, Rowley, Colonius, McKeon,
+  Schmidt, Gordeyev, Theofilis, and Ukeiley]{taira_arxiv_2017}
+Kunihiko Taira, Steven~L. Brunton, Scott T.~M. Dawson, Clarence~W. Rowley, Tim
+  Colonius, Beverley~J. McKeon, Oliver~T. Schmidt, Stanislav Gordeyev,
+  Vassilios Theofilis, and Lawrence~S. Ukeiley.
+\newblock Modal analysis of fluid flows: an overview.
+\newblock \emph{eprint arXiv:1702.01453}, 2017.
+
+\bibitem[Rowley et~al.(2004)Rowley, Colonius, and Murray]{rowley2004model}
+Clarence~W Rowley, Tim Colonius, and Richard~M Murray.
+\newblock Model reduction for compressible flows using pod and galerkin
+  projection.
+\newblock \emph{Physica D: Nonlinear Phenomena}, 189\penalty0 (1):\penalty0
+  115--129, 2004.
+
+\bibitem[Armbruster et~al.(1994)Armbruster, Heiland, and
+  Kostelich]{armbruster_chaos_94}
+Dieter Armbruster, Randy Heiland, and {Eric J.} Kostelich.
+\newblock Kltool: A tool to analyze spatiotemporal complexity.
+\newblock \emph{Chaos (Woodbury, N.Y.)}, 4, 1994.
+
+\bibitem[Hellström et~al.(2011)Hellström, Sinha, and
+  Smits]{Hellstrom_pof_2011}
+Leo H.~O. Hellström, Aman Sinha, and Alexander~J. Smits.
+\newblock Visualizing the very-large-scale motions in turbulent pipe flow.
+\newblock \emph{Physics of Fluids}, 23\penalty0 (1):\penalty0 011703, 2011.
+\newblock \doi{10.1063/1.3533016}.
+\newblock URL \url{http://dx.doi.org/10.1063/1.3533016}.
+
+\bibitem[Bailey and Smith(2010)]{bailey_smits_jfm_2010}
+Sean C.~C. Bailey, B.~N. and Alexander~J. Smith.
+\newblock Experimental investigation of the structure of large- and
+  very-large-scale motions in turbulent pipe flow.
+\newblock \emph{Journal of Fluid Mechanics}, 651:\penalty0 339–356, 2010.
+\newblock \doi{10.1017/S0022112009993983}.
+
+\bibitem[Stabile et~al.(2017)Stabile, Hijazi, Mola, Lorenzi, and
+  Rozza]{stabile2017advances}
+Giovanni Stabile, Saddam Hijazi, Andrea Mola, Stefano Lorenzi, and Gianluigi
+  Rozza.
+\newblock Advances in reduced order modelling for cfd: vortex shedding around a
+  circular cylinder using a pod-galerkin method.
+\newblock \emph{arXiv preprint arXiv:1701.03424}, 2017.
+
+\bibitem[Kutz(2013)]{kutz_book2013}
+J.~Nathan Kutz.
+\newblock Dynamic mode decomposition.
+\newblock In \emph{Data-driven modeling \& scientific computation Methods for
+  Coomplex Systems \& Big Data}. Oxford University Press, 2013.
+
+\bibitem[Schmid(2010)]{schmid_jfm2010}
+Peter~J. Schmid.
+\newblock Dynamic mode decomposition of numerical and experimental data.
+\newblock \emph{Journal of Fluid Mechanics}, 656, 2010.
+
+\bibitem[Rowley et~al.(2009)Rowley, Mezi\'{c}, Bagheri, and
+  schlatter]{rowley_mezic_schlatter_jfm_2009}
+Clarence~W. Rowley, Igor Mezi\'{c}, Shervin Bagheri, and Philipp schlatter.
+\newblock Spectral analysis of nonlinear flows.
+\newblock \emph{Journal of Fluid Mechanics}, 641, 2009.
+
+\bibitem[Tu(2013)]{tu_thesis}
+Jonathan~H. Tu.
+\newblock \emph{Dynamic mode decomposition: theory and applications}.
+\newblock PhD thesis, Princeton University, 2013.
+
+\bibitem[Kutz et~al.(2016)Kutz, Fu, and Brunton]{kutz_fu_brunton_siam_2016}
+J.~Nathan Kutz, Xing Fu, and Steven~L. Brunton.
+\newblock Multiresolution dynamic mode decomposition.
+\newblock \emph{SIAM Journal on Applied Dynamical Systems}, 15, 2016.
+
+\bibitem[Gu\'{e}niat et~al.(2015)Gu\'{e}niat, Mathelin, and
+  Pastur]{florimond_mathelin_pof_2015}
+Florimond Gu\'{e}niat, Lionel Mathelin, and Luc~R. Pastur.
+\newblock A dynamic mode decomposition approach for large and arbitrarily
+  sampled systems.
+\newblock \emph{Physics of Fluids}, 27, 2015.
+
+\bibitem[Hemati et~al.(2014)Hemati, Williams, and Rowley]{hemati_pof_2014}
+Maziar~S. Hemati, Matthew~O. Williams, and Clarence~W. Rowley.
+\newblock Dynamic mode decomposition for large and streaming datasets.
+\newblock \emph{Physics of Fluids}, 26, 2014.
+
+\end{thebibliography}

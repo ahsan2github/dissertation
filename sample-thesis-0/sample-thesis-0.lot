@@ -1,0 +1,17 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Simulation parameters and flow characteristics}}{22}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Fraction of the cumulative energy contained by all the spatial scales greater than the specified threshold at a height of $x_3=0.45\mitdelta $ ($\pm 0.01\mitdelta $) for the $u_1$-component in the $x_1-$direction}}{22}
+\gdef \the@ipfilectr {}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Simulation parameters}}{59}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Wavelet decomposition levels and corresponding normalised horizontal length scales ($r_m/\mitdelta $) and wavenumbers ($k_m\mitdelta $) of all three cases.}}{60}
+\gdef \the@ipfilectr {@-3}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Simulation parameters}}{77}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Time period of evolution of the first five DMD modes normalized by $\mitdelta / U(z)$ for $CHNL$. Modes were calculated at different horizontal planes characterized by normalized heights presented.}}{77}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Statistics of the first five DMD modes for $EK02$. DMD time periods are normalized by $\mitdelta / U(z)$. Modes were calculated at different horizontal planes characterized by normalized heights presented.}}{77}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\gdef \the@ipfilectr {}
