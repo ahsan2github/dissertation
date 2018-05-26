@@ -1,2 +1,2 @@
-# dissertation
+# Dissertation
 PhD Dissertation
