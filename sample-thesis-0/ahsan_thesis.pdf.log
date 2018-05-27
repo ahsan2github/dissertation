@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.5.25)  26 MAY 2018 07:07
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.5.25)  27 MAY 2018 02:19
  restricted system commands enabled.
 **sample-thesis-0.tex
 (./sample-thesis-0.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.123 seconds
+luaotfload | main : initialization completed in 0.124 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./uuthesis2e.cls
 Document Class: uuthesis2e 1998/04/01 v1.3 University of Utah Thesis Class
@@ -3082,7 +3082,7 @@ ph, 25 attribute, 63 glue_spec, 25 attribute_list, 2 write nodes
    avail lists: 1:1,2:1850,3:215,4:129,5:524,6:4667,7:2032,8:144,9:833,10:29,11:
 455
  34821 multiletter control sequences out of 65536+600000
- 450 fonts using 68575759 bytes
+ 450 fonts using 68575171 bytes
  66i,14n,68p,3977b,390s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texm
 f/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf/fonts/opentype
