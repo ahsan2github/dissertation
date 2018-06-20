@@ -20,7 +20,7 @@ STYFILES =  amssymbols.sty \
 
 TEXMAIN = sample-thesis-0.tex
 TEXFILES = intro.tex chap1.tex chap2.tex chap3.tex conclusion.tex appa.tex
-OUTPUTFILE = ahsan_thesis.pdf
+OUTPUTFILE = ahsan_dissertation
 
 all: $(OUTPUTFILE)
 
@@ -35,4 +35,4 @@ $(OUTPUTFILE): $(TEXMAIN) $(TEXFILES) $(STYFILES)
 	$(LATEXBIN) -jobname=$@ $<
 	
 clean:
-	rm -fr $(OUTPUTFILE) *.log *.aux *.lof *.lot
+	rm -fr $(OUTPUTFILE) *.log *.aux *.lof *.lot *.bbl

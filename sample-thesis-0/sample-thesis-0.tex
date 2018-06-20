@@ -32,8 +32,14 @@
 %%% mentioned in this file!
 %%%
 %%% [16-Mar-2016]
-%%% ====================================================================
 
+
+%%% example, one student had
+%%%
+%%% \committeechair{\mbox{\small Andrej Cherkaev and Andrejs Treibergs}}
+%%%
+%%% The \mbox{} ensures that line breaks cannot happen, and the \small
+%%% is necessary to make the names fit on the Dissertation
 \documentclass[11pt,Chicago]{uuthesis2e}
 
 %%% Undefine two macros from uuthesis2e.cls that conflict with
@@ -81,9 +87,7 @@
 \usepackage{longtable}
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{array}
-\usepackage[sort, square, sectionbib, numbers]{natbib}
-%\usepackage{chapterbib}   
-%\bibliographystyle{siam} 
+\usepackage[square, sectionbib, numbers]{natbib}
 \usepackage{enumerate}
 \usetikzlibrary {decorations.markings}
 \usepackage {varioref}
@@ -147,10 +151,10 @@
 %%% after ALL OTHER packages, in case it needs to override some of their
 %%% definitions.
 \usepackage {mythesis}
-
-%%% ====================================================================
+%%%%==========================================
 %%% The student-specific front matter fields are defined here:
 
+%%% ==========================
 \author                 {Mohammad Ahsanuzzaman Khan}
 \title                  {Identification and characterization of large, and very large scale motions in numerically simulated atmospheric boundary layers}
 \thesistype             {dissertation}
@@ -167,24 +171,18 @@
 %%% College- and Department-level definitions:
 \approvaldepartment     {Mechanical Engineering}
 \department             {Department of Mechanical Engineering}
-\graduatedean           {David Kieda}
+\graduatedean           {David B. Kieda}
 \departmentchair        {Tim Ameel}
 
 %%% The graduate student's committee members:
-\committeechair         {Rob Stoll}
+\committeechair         {James R. Stoll II}
 \firstreader            {Eric Pardyjak}
 \secondreader           {Marc Calaf}
 \thirdreader            {Meredith Metzger}
 \fourthreader           {Steven K. Krueger}
 \chairtitle             {Associate Professor}
 
-%%% NB: It is rare, but possible, for there to be two chairs, For
-%%% example, one student had
-%%%
-%%% \committeechair{\mbox{\small Andrej Cherkaev and Andrejs Treibergs}}
-%%%
-%%% The \mbox{} ensures that line breaks cannot happen, and the \small
-%%% is necessary to make the names fit on the Dissertation Approval form
+%%% NB: It is rare, but possible, for there to be two chairs, For Approval form
 
 %%% Dates that must be adjusted for each academic term, and be permitted
 %%% according to the University of Utah Thesis Office:
@@ -192,11 +190,11 @@
 \copyrightyear          {2018}
 
 %%% Dates on which committee members approved the thesis
-\chairdateapproved      {}
-\firstdateapproved      {}
+\chairdateapproved      {12/20/2017}
+\firstdateapproved      {12/20/2017}
 \seconddateapproved     {}
-\thirddateapproved      {}
-\fourthdateapproved     {}
+\thirddateapproved      {12/20/2017}
+\fourthdateapproved     {12/20/2017}
 
 %%% ====================================================================
 %%% Typesetting begins here:
@@ -245,7 +243,7 @@
 \include{conclusion}
 
 % \numberofappendices = 1   % Set 0 for none, else number of appendices.
-\numberofappendices = 0
+\numberofappendices = 1
 \appendix       % Chapters, sections are now appendix style A, A.1, A.2, B, C, D, ...
 \include{appa}
 
@@ -292,5 +290,6 @@
 %%\jobname.bbl.
 
 
+%% to change the default behavior of ieeeTrans
 
 \end {document}

@@ -1,6 +1,7 @@
 %%% -*-LaTeX-*-
-
-\chapter{Turbulent kinetic energy equation for a horizontally homogeneous, quasi-steady flow}
+\chapter{}
+\vspace{-50pt}
+\section{Turbulent kinetic energy equation for a horizontally homogeneous, quasi-steady flow}
 \label{app:A_tke}
 
 The momentum equations for the Ekman layer flows can be simplified under the assumption of horizontal homogeneity and quasi-steady condition. If any generic spatially filtered variable $\zeta$ is decomposed into a horizontally  averaged ($\left< \zeta \right>$) and fluctuating components ($\zeta\prime$), the NS equations can be reduced  to the following form:         
@@ -29,7 +30,7 @@ The momentum equations for the Ekman layer flows can be simplified under the ass
 The turbulent kinetic energy ($tke$) equation under the assumption of horizontal homogeneity can be derived within the framework of spatial filtered Navier-Stokes equation by multiplying each Eqn.  \ref{eqn:simplified_ns_ekman} by $u_i$. For convenience, the tilde is dropped and all dependent variables will be understood as spatially filtered quantities. With the proposed decomposition and under the assumption that this horizontal averaging over statistically independent frames conforms to Reynold's averaging, the transport equation for the turbulent kinetic energy ($q$) takes the following form:
 \begin{align}
 u_3^\prime u_i^\prime \frac{\partial \left< u_i \right>}{\partial x_3}+[\left< u_j\right>\frac{\partial q}{\partial x_j}+u_j^\prime\frac{\partial q}{\partial x_j}+\frac{\partial }{\partial x_j}(u_i^\prime \tau_{ij}^\prime)]+u_i^\prime\frac{\partial p^\prime}{\partial x_i}+ u_i^\prime \frac{\partial \left < p \right >}{\partial x_i}+u_i^\prime\frac{\partial \left < \tau_{i3} \right >}{\partial x_3}-\tau_{ij}^\prime s_{ij}^\prime =0,
-\label{eqn:tke_horz_avg}
+\label{eqn:tke_horz_avg_appa}
 \end{align}
-\noindent where, $q=\frac{1}{2}u^{\prime}_i u^{\prime}_i$ and $s_{ij}'=\frac{1}{2}(\frac{\partial u_{i}'}{\partial x_j}+\frac{\partial u_{j}'}{\partial x_i})$.
-In Eqn. \ref{eqn:tke_horz_avg} the first term on the left-hand side denotes production of $tke$ by mean shear, the second term captures the spatial re-distribution of $tke$ by the mean flow and turbulence, and the third and fourth terms denote velocity and pressure correlation.  The fifth term stands for redistribution of $tke$ by horizontally averaged subgrid-scale turbulence, and the last term denotes subgrid-scale dissipation by turbulent motions. Although the different terms of this $tke$ transport equation were not directly analyzed in this study, it served as a guidepost for the inter-scale energy transfer analysis. In this study, a scale dependent version of the combined terms ($-\frac{\partial }{\partial x_i}\left< p^\prime u^\prime\right>-u_j^\prime\frac{\partial \left< q\right>}{\partial x_j}-\frac{\partial}{\partial x_j}\left< u_i^\prime\tau_{ij}^\prime \right>+\left< \tau_{ij}^\prime s_{ij}^\prime\right>$) was analyzed via a discrete wavelet framework. 
+\noindent where $q=\frac{1}{2}u^{\prime}_i u^{\prime}_i$ and $s_{ij}'=\frac{1}{2}(\frac{\partial u_{i}'}{\partial x_j}+\frac{\partial u_{j}'}{\partial x_i})$.
+In Eqn. \ref{eqn:tke_horz_avg_appa} the first term on the left-hand side denotes production of $tke$ by mean shear, the second term captures the spatial re-distribution of $tke$ by the mean flow and turbulence, and the third and fourth terms denote velocity and pressure correlation.  The fifth term stands for redistribution of $tke$ by horizontally averaged subgrid-scale turbulence, and the last term denotes subgrid-scale dissipation by turbulent motions. Although the different terms of this $tke$ transport equation were not directly analyzed in this study, it served as a guidepost for the interscale energy transfer analysis. In this study, a scale-dependent version of the combined terms ($-\frac{\partial }{\partial x_i}\left< p^\prime u^\prime\right>-u_j^\prime\frac{\partial \left< q\right>}{\partial x_j}-\frac{\partial}{\partial x_j}\left< u_i^\prime\tau_{ij}^\prime \right>+\left< \tau_{ij}^\prime s_{ij}^\prime\right>$) was analyzed via a discrete wavelet framework. 
